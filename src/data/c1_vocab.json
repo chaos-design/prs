@@ -14840,6 +14840,9 @@
           "en": "Her face was delicate.",
           "zh": "她的脸很精致。"
         }
+      ],
+      "synonyms": [
+        "fragile"
       ]
     },
     {
@@ -14872,6 +14875,17 @@
           "en": "deliver the thief to the police",
           "zh": "将小偷交给警察"
         }
+      ],
+      "synonyms": [
+        "come through",
+        "come up with the goods",
+        "outbring",
+        "utter",
+        "free",
+        "loose",
+        "rid",
+        "liberate",
+        "release"
       ]
     },
     {
@@ -14896,6 +14910,10 @@
           "en": "He’s a demon at the card tables.",
           "zh": "他是牌桌上的恶魔。"
         }
+      ],
+      "synonyms": [
+        "genius",
+        "tutelary deity"
       ]
     },
     {
@@ -15012,6 +15030,18 @@
           "en": "to denounce war; to denounce punishment",
           "zh": "谴责战争； 谴责惩罚"
         }
+      ],
+      "synonyms": [
+        "attack",
+        "charge",
+        "condemn",
+        "criticize",
+        "damn",
+        "decry",
+        "discredit",
+        "inveigh against",
+        "proscribe",
+        "report"
       ]
     },
     {
@@ -15030,7 +15060,31 @@
       "morph_note": "",
       "ipa_uk": "/dɛns/",
       "ipa_us": "/dɛns/",
-      "en_def": "A thicket."
+      "en_def": "A thicket.",
+      "synonyms": [
+        "abstruse",
+        "difficult",
+        "hard",
+        "incomprehensible",
+        "obscure",
+        "tough",
+        "cloudy",
+        "opaque",
+        "compact",
+        "crowded"
+      ],
+      "antonyms": [
+        "diffuse",
+        "few and far between",
+        "rarefied",
+        "scattered",
+        "sparse",
+        "bright",
+        "canny",
+        "intelligent",
+        "quick",
+        "quick-witted"
+      ]
     },
     {
       "word": "density",
@@ -15054,6 +15108,11 @@
           "en": "The number of particles per unit volume of a specified volume can be considered to be the particle density for the specified volume.",
           "zh": "指定体积的每单位体积的颗粒数可以被认为是指定体积的颗粒密度。"
         }
+      ],
+      "synonyms": [
+        "mass density",
+        "number density",
+        "probability density"
       ]
     },
     {
@@ -15100,6 +15159,9 @@
           "en": "Her dependence on cocaine led to her ruin.",
           "zh": "她对可卡因的依赖导致了她的毁灭。"
         }
+      ],
+      "antonyms": [
+        "independence"
       ]
     },
     {
@@ -15118,7 +15180,19 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈpɪkt/",
       "ipa_us": "/dɪˈpɪkt/",
-      "en_def": "To render a representation of something, using words, sounds, images, or other means."
+      "en_def": "To render a representation of something, using words, sounds, images, or other means.",
+      "synonyms": [
+        "depicture",
+        "describe",
+        "draw",
+        "exhibit",
+        "express",
+        "portray",
+        "register",
+        "render",
+        "show",
+        "visualise"
+      ]
     },
     {
       "word": "deploy",
@@ -15168,7 +15242,10 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈplɔɪmənt/",
       "ipa_us": "/dɪˈplɔɪmənt/",
-      "en_def": "An arrangement or classification of things."
+      "en_def": "An arrangement or classification of things.",
+      "antonyms": [
+        "ployment"
+      ]
     },
     {
       "word": "deposit",
@@ -15200,6 +15277,9 @@
           "en": "A crocodile deposits her eggs in the sand.",
           "zh": "鳄鱼将卵产在沙子里。"
         }
+      ],
+      "antonyms": [
+        "withdrawal"
       ]
     },
     {
@@ -15218,7 +15298,14 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈpɹaɪv/",
       "ipa_us": "/dɪˈpɹaɪv/",
-      "en_def": "To take something away from (someone) and keep it away; to deny someone something."
+      "en_def": "To take something away from (someone) and keep it away; to deny someone something.",
+      "synonyms": [
+        "bereave",
+        "impoverish"
+      ],
+      "antonyms": [
+        "enrich"
+      ]
     },
     {
       "word": "deprived",
@@ -15236,7 +15323,14 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈpɹaɪvd/",
       "ipa_us": "/dɪˈpɹaɪvd/",
-      "en_def": "To take something away from (someone) and keep it away; to deny someone something."
+      "en_def": "To take something away from (someone) and keep it away; to deny someone something.",
+      "synonyms": [
+        "bereave",
+        "impoverish"
+      ],
+      "antonyms": [
+        "enrich"
+      ]
     },
     {
       "word": "deputy",
@@ -15268,6 +15362,17 @@
           "en": "The sheriff's deputies took the suspect into custody.",
           "zh": "治安官的代表将嫌疑人拘留。"
         }
+      ],
+      "synonyms": [
+        "agent",
+        "delegate",
+        "lieutenant",
+        "representative",
+        "vice",
+        "vicegerent",
+        "envoy",
+        "legate",
+        "substitute"
       ]
     },
     {
@@ -15300,6 +15405,13 @@
           "en": "he descended from his high estate",
           "zh": "他是从他的高位继承人"
         }
+      ],
+      "synonyms": [
+        "go down"
+      ],
+      "antonyms": [
+        "ascend",
+        "go up"
       ]
     },
     {
@@ -15332,6 +15444,9 @@
           "en": "The descent into the cavern was wet and slippery.",
           "zh": "进入洞穴的通道又湿又滑。"
         }
+      ],
+      "antonyms": [
+        "ascent"
       ]
     },
     {
@@ -15416,6 +15531,18 @@
           "en": "to designate the boundaries of a country",
           "zh": "指定一个国家的边界"
         }
+      ],
+      "synonyms": [
+        "denominate",
+        "entitle",
+        "name",
+        "style",
+        "denote",
+        "describe",
+        "indicate",
+        "note",
+        "allocate",
+        "earmark"
       ]
     },
     {
@@ -15444,6 +15571,9 @@
           "en": "This applicant has almost all desirable properties.",
           "zh": "这位申请人几乎拥有所有理想的属性。"
         }
+      ],
+      "antonyms": [
+        "undesirable"
       ]
     },
     {
@@ -15476,6 +15606,10 @@
           "en": "Too much desire can seriously affect one’s judgment.",
           "zh": "太多的欲望会严重影响一个人的判断力。"
         }
+      ],
+      "synonyms": [
+        "wanna",
+        "want-to"
       ]
     },
     {
@@ -15522,7 +15656,12 @@
       "morph_note": "",
       "ipa_uk": "/ˈdɛstɪni/",
       "ipa_us": "/ˈdɛstɪni/",
-      "en_def": "That to which any person or thing is destined; a predetermined state; a condition predestined by the Divine or by human will"
+      "en_def": "That to which any person or thing is destined; a predetermined state; a condition predestined by the Divine or by human will",
+      "synonyms": [
+        "fate",
+        "lot",
+        "orlay"
+      ]
     },
     {
       "word": "destructive",
@@ -15550,6 +15689,23 @@
           "en": "Blurring an image is a destructive operation, but rotating an image is not.",
           "zh": "模糊图像是一种破坏性操作，但旋转图像则不是。"
         }
+      ],
+      "synonyms": [
+        "calamitous",
+        "catastrophic",
+        "devastating",
+        "disastrous",
+        "eradicative",
+        "harmful",
+        "pernicious",
+        "ruinous",
+        "wrackful",
+        "wreckful"
+      ],
+      "antonyms": [
+        "constructive",
+        "nondestructive",
+        "productive"
       ]
     },
     {
@@ -15582,6 +15738,16 @@
           "en": "Now that the zipper has detached, my winter coat won't keep me very warm.",
           "zh": "现在拉链已经脱开了，我的冬衣就不再保暖了。"
         }
+      ],
+      "synonyms": [
+        "fall off",
+        "allocate",
+        "earmark",
+        "disengage",
+        "unfasten"
+      ],
+      "antonyms": [
+        "attach"
       ]
     },
     {
@@ -15678,6 +15844,19 @@
           "en": "to deteriorate the mind",
           "zh": "使精神恶化"
         }
+      ],
+      "synonyms": [
+        "degenerate",
+        "go off",
+        "nerf",
+        "weaken",
+        "worsen"
+      ],
+      "antonyms": [
+        "ameliorate",
+        "better",
+        "improve",
+        "revamp"
       ]
     },
     {
@@ -15728,7 +15907,13 @@
       "morph_note": "",
       "ipa_uk": "/ˈdɛvəsteɪt/",
       "ipa_us": "/ˈdɛvəsteɪt/",
-      "en_def": "To ruin many or all things over a large area, such as most or all buildings of a city, or cities of a region, or trees of a forest."
+      "en_def": "To ruin many or all things over a large area, such as most or all buildings of a city, or cities of a region, or trees of a forest.",
+      "synonyms": [
+        "decimate",
+        "destroy",
+        "raze",
+        "ruin"
+      ]
     },
     {
       "word": "devastated",
@@ -15754,6 +15939,12 @@
           "en": "a devastated widow",
           "zh": "一个悲痛欲绝的寡妇"
         }
+      ],
+      "synonyms": [
+        "decimate",
+        "destroy",
+        "raze",
+        "ruin"
       ]
     },
     {
@@ -15770,7 +15961,13 @@
       "example_en": "The earthquake had a devastating impact on the small town.",
       "example_zh": "地震对这个小镇造成了极具破坏力的影响。",
       "morph_note": "",
-      "en_def": "To ruin many or all things over a large area, such as most or all buildings of a city, or cities of a region, or trees of a forest."
+      "en_def": "To ruin many or all things over a large area, such as most or all buildings of a city, or cities of a region, or trees of a forest.",
+      "synonyms": [
+        "decimate",
+        "destroy",
+        "raze",
+        "ruin"
+      ]
     },
     {
       "word": "developer",
@@ -15788,7 +15985,12 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈvɛləpə(ɹ)/",
       "ipa_us": "/dɪˈvɛləpə(ɹ)/",
-      "en_def": "A person or entity engaged in the creation or improvement of certain classes of products."
+      "en_def": "A person or entity engaged in the creation or improvement of certain classes of products.",
+      "synonyms": [
+        "designer",
+        "programmer",
+        "software engineer"
+      ]
     },
     {
       "word": "devil",
@@ -15820,6 +16022,27 @@
           "en": "That math problem was a devil.",
           "zh": "那道数学题简直就是魔鬼。"
         }
+      ],
+      "synonyms": [
+        "bastard",
+        "bitch",
+        "bugger",
+        "stinker",
+        "cow",
+        "sod",
+        "demon",
+        "deuce",
+        "dickens",
+        "fuck"
+      ],
+      "antonyms": [
+        "God",
+        "angel",
+        "conscience",
+        "god",
+        "saint",
+        "cakewalk",
+        "piece of cake"
       ]
     },
     {
@@ -15980,7 +16203,19 @@
       "morph_note": "",
       "ipa_uk": "/dɪf.əˈɹɛn.ʃi.eɪt/",
       "ipa_us": "/ˌdɪ.fəˈɹɛnt.ʃi.eɪt/",
-      "en_def": "Something that has been differentiated or stratified."
+      "en_def": "Something that has been differentiated or stratified.",
+      "synonyms": [
+        "change",
+        "transform",
+        "differentialize"
+      ],
+      "antonyms": [
+        "leave alone",
+        "preserve",
+        "mix up",
+        "muddle up",
+        "equate"
+      ]
     },
     {
       "word": "digest",
@@ -16012,6 +16247,11 @@
           "en": "Comyn's Digest",
           "zh": "科明文摘"
         }
+      ],
+      "synonyms": [
+        "arrange",
+        "sort",
+        "sort out"
       ]
     },
     {
@@ -16048,7 +16288,11 @@
       "morph_note": "",
       "ipa_uk": "/ˈdɪɡnɪti/",
       "ipa_us": "/ˈdɪɡnɪti/",
-      "en_def": "The state of being dignified or worthy of esteem: elevation of mind or character."
+      "en_def": "The state of being dignified or worthy of esteem: elevation of mind or character.",
+      "synonyms": [
+        "worth",
+        "worthiness"
+      ]
     },
     {
       "word": "dilemma",
@@ -16066,7 +16310,14 @@
       "morph_note": "",
       "ipa_uk": "/daɪˈlɛmə/",
       "ipa_us": "/daɪˈlɛmə/",
-      "en_def": "A circumstance in which a choice must be made between two or more alternatives that seem equally undesirable."
+      "en_def": "A circumstance in which a choice must be made between two or more alternatives that seem equally undesirable.",
+      "synonyms": [
+        "bind",
+        "fix",
+        "pickle",
+        "problem",
+        "quandary"
+      ]
     },
     {
       "word": "dimension",
@@ -16090,6 +16341,15 @@
           "en": "The dimension of velocity is length divided by time.",
           "zh": "速度的量纲是长度除以时间。"
         }
+      ],
+      "synonyms": [
+        "aspect",
+        "attribute",
+        "property",
+        "magnitude",
+        "proportion",
+        "scope",
+        "size"
       ]
     },
     {
@@ -16108,7 +16368,12 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈmɪnɪʃ/",
       "ipa_us": "/dɪˈmɪnɪʃ/",
-      "en_def": "To make smaller."
+      "en_def": "To make smaller.",
+      "antonyms": [
+        "improve",
+        "renovate",
+        "repair"
+      ]
     },
     {
       "word": "dip",
@@ -16158,7 +16423,10 @@
       "morph_note": "",
       "ipa_uk": "/ˈdɪ.plə.mæt/",
       "ipa_us": "/ˈdɪ.plə.mæt/",
-      "en_def": "A person, such as an ambassador, who is accredited to represent a government officially in its relations with other governments or international organisations"
+      "en_def": "A person, such as an ambassador, who is accredited to represent a government officially in its relations with other governments or international organisations",
+      "synonyms": [
+        "diplomatist"
+      ]
     },
     {
       "word": "diplomatic",
@@ -16272,7 +16540,10 @@
       "morph_note": "",
       "ipa_uk": "/daɪˈɹɛktəɹi/",
       "ipa_us": "/daɪˈɹɛktəɹi/",
-      "en_def": "A list of names, addresses etc, of specific classes of people or organizations, often in alphabetical order or in some classification."
+      "en_def": "A list of names, addresses etc, of specific classes of people or organizations, often in alphabetical order or in some classification.",
+      "synonyms": [
+        "folder"
+      ]
     },
     {
       "word": "disadvantaged",
@@ -16294,6 +16565,9 @@
           "en": "They fear it might disadvantage honest participants to allow automated entries.",
           "zh": "他们担心允许自动输入可能会对诚实的参与者不利。"
         }
+      ],
+      "synonyms": [
+        "tell against"
       ]
     },
     {
@@ -16312,7 +16586,13 @@
       "morph_note": "",
       "ipa_uk": "[dɪsəˈpɹuːvəɫ]",
       "ipa_us": "[dɪsəˈpɹuːvəɫ]",
-      "en_def": "The act of disapproving; condemnation."
+      "en_def": "The act of disapproving; condemnation.",
+      "synonyms": [
+        "disapprobation"
+      ],
+      "antonyms": [
+        "approval"
+      ]
     },
     {
       "word": "disastrous",
@@ -16330,7 +16610,18 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈzɑːstɹəs/",
       "ipa_us": "/dɪˈzɑːstɹəs/",
-      "en_def": "Of the nature of a disaster; calamitous."
+      "en_def": "Of the nature of a disaster; calamitous.",
+      "synonyms": [
+        "cataclysmic",
+        "catastrophic",
+        "ill-boding",
+        "inauspicious",
+        "sinister"
+      ],
+      "antonyms": [
+        "auspicious",
+        "fortunate"
+      ]
     },
     {
       "word": "discard",
@@ -16348,7 +16639,18 @@
       "morph_note": "",
       "ipa_uk": "/ˈdɪskɑːd/",
       "ipa_us": "/ˈdɪskɑːd/",
-      "en_def": "Anything discarded."
+      "en_def": "Anything discarded.",
+      "synonyms": [
+        "fire",
+        "let go",
+        "sack",
+        "cast away",
+        "dismiss",
+        "dispose",
+        "eliminate",
+        "get rid of",
+        "throw away"
+      ]
     },
     {
       "word": "discharge",
@@ -16380,6 +16682,12 @@
           "en": "A pipe discharges water.",
           "zh": "一根管子排出水。"
         }
+      ],
+      "synonyms": [
+        "firing",
+        "fire",
+        "let go",
+        "terminate"
       ]
     },
     {
@@ -16398,7 +16706,17 @@
       "morph_note": "此词不宜强行拆分",
       "ipa_uk": "/ˈdɪ.sə.plɪn/",
       "ipa_us": "/ˈdɪ.sə.plɪn/",
-      "en_def": "A controlled behaviour; self-control."
+      "en_def": "A controlled behaviour; self-control.",
+      "synonyms": [
+        "field",
+        "sphere",
+        "penalty",
+        "sanction",
+        "drill"
+      ],
+      "antonyms": [
+        "spontaneity"
+      ]
     },
     {
       "word": "disclose",
@@ -16416,7 +16734,21 @@
       "morph_note": "",
       "ipa_uk": "/dɪsˈkləʊz/",
       "ipa_us": "/dɪsˈkləʊz/",
-      "en_def": "A disclosure."
+      "en_def": "A disclosure.",
+      "synonyms": [
+        "bring to light",
+        "expose",
+        "reveal",
+        "impart",
+        "make known",
+        "publish",
+        "divulge",
+        "unveil"
+      ],
+      "antonyms": [
+        "cover up",
+        "withhold"
+      ]
     },
     {
       "word": "disclosure",
@@ -16440,6 +16772,12 @@
           "en": "get full disclosure",
           "zh": "得到充分披露"
         }
+      ],
+      "synonyms": [
+        "revelation"
+      ],
+      "antonyms": [
+        "closure"
       ]
     },
     {
@@ -16500,6 +16838,18 @@
           "en": "The preacher gave us a long discourse on duty.",
           "zh": "传道人在值班时给我们做了长篇演讲。"
         }
+      ],
+      "synonyms": [
+        "communication",
+        "expression",
+        "dissertation",
+        "lecture",
+        "study",
+        "treatise",
+        "ratiocination",
+        "conversation",
+        "debate",
+        "discussion"
       ]
     },
     {
@@ -16560,6 +16910,9 @@
           "en": "I leave that to your discretion.",
           "zh": "我将其留给您自行决定。"
         }
+      ],
+      "antonyms": [
+        "indiscretion"
       ]
     },
     {
@@ -16584,6 +16937,14 @@
           "en": "The law prohibits discriminating against people based on their skin color.",
           "zh": "法律禁止基于肤色歧视他人。"
         }
+      ],
+      "synonyms": [
+        "disfavor",
+        "differentiate",
+        "distinguish"
+      ],
+      "antonyms": [
+        "favor"
       ]
     },
     {
@@ -16656,7 +17017,10 @@
       "example_en": "He acted dishonestly in the business deal.",
       "example_zh": "他在这笔生意中行事不诚实。",
       "morph_note": "",
-      "en_def": "In a dishonest manner."
+      "en_def": "In a dishonest manner.",
+      "antonyms": [
+        "honestly"
+      ]
     },
     {
       "word": "dismiss",
@@ -16738,6 +17102,10 @@
           "en": "Bulimia is an eating disorder.",
           "zh": "暴食症是一种饮食失调症。"
         }
+      ],
+      "synonyms": [
+        "chaos",
+        "entropy"
       ]
     },
     {
@@ -16826,6 +17194,14 @@
           "en": "In these uncertain times, I am disposed towards caution.",
           "zh": "在这些不确定的时期，我倾向于谨慎行事。"
         }
+      ],
+      "synonyms": [
+        "discard",
+        "incline"
+      ],
+      "antonyms": [
+        "disincline",
+        "indispose"
       ]
     },
     {
@@ -16872,7 +17248,17 @@
       "morph_note": "",
       "ipa_uk": "/dɪsɹɪˈspɛkt/",
       "ipa_us": "/dɪsɹɪˈspɛkt/",
-      "en_def": "A lack of respect, esteem or courteous behaviour."
+      "en_def": "A lack of respect, esteem or courteous behaviour.",
+      "synonyms": [
+        "misrespect",
+        "unrespect",
+        "dis",
+        "insult",
+        "misbid"
+      ],
+      "antonyms": [
+        "respect"
+      ]
     },
     {
       "word": "disrupt",
