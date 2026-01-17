@@ -54,7 +54,7 @@ export default function Header(_props: HeaderProps) {
           </div>
         </div>
 
-        <div className='flex items-center gap-3 flex-shrink-0'>
+        <div className='flex items-center gap-1 flex-shrink-0'>
           <a
             href='https://github.com/chaos-design/prs'
             target='_blank'

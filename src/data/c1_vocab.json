@@ -17360,6 +17360,15 @@
           "en": "to dissolve an injunction",
           "zh": "解除禁令"
         }
+      ],
+      "synonyms": [
+        "fade out",
+        "formelt",
+        "melt"
+      ],
+      "antonyms": [
+        "establish",
+        "found"
       ]
     },
     {
@@ -17388,6 +17397,11 @@
           "en": "Ever since our argument, she has been totally distant toward me.",
           "zh": "自从我们吵架之后，她就对我完全疏远了。"
         }
+      ],
+      "synonyms": [
+        "aloof",
+        "cold",
+        "faraway"
       ]
     },
     {
@@ -17420,6 +17434,24 @@
           "en": "Olga's voice is quite distinct because of her accent.",
           "zh": "由于口音，奥尔加的声音很明显。"
         }
+      ],
+      "synonyms": [
+        "clear",
+        "vivid",
+        "different",
+        "separate",
+        "several",
+        "specified",
+        "patterned",
+        "characteristic",
+        "distinctive",
+        "prominent"
+      ],
+      "antonyms": [
+        "confusing",
+        "indistinct",
+        "indistinguishable",
+        "same"
       ]
     },
     {
@@ -17448,6 +17480,9 @@
           "en": "She had the distinction of meeting the Queen.",
           "zh": "她有幸见到了女王。"
         }
+      ],
+      "antonyms": [
+        "confusion"
       ]
     },
     {
@@ -17500,6 +17535,9 @@
           "en": "In their articles, journalists sometimes distort the truth.",
           "zh": "记者在文章中有时会歪曲事实。"
         }
+      ],
+      "synonyms": [
+        "deform"
       ]
     },
     {
@@ -17556,6 +17594,21 @@
           "en": "She distressed the new media cabinet so that it fit with the other furniture in the room.",
           "zh": "她对新的媒体柜进行了仿旧处理，使其与房间里的其他家具相匹配。"
         }
+      ],
+      "synonyms": [
+        "age",
+        "antique",
+        "patinate",
+        "anguish",
+        "harrow",
+        "martyr",
+        "tantalise",
+        "tantalize",
+        "torment",
+        "trouble"
+      ],
+      "antonyms": [
+        "eustress"
       ]
     },
     {
@@ -17584,6 +17637,18 @@
           "en": "I'm distressed that John hasn't answered my calls. I hope nothing bad happened to him on the way here.",
           "zh": "约翰没有接我的电话，我感到很难过。 我希望他来这里的路上没有发生什么不好的事情。"
         }
+      ],
+      "synonyms": [
+        "age",
+        "antique",
+        "patinate",
+        "anguish",
+        "harrow",
+        "martyr",
+        "tantalise",
+        "tantalize",
+        "torment",
+        "trouble"
       ]
     },
     {
@@ -17616,6 +17681,17 @@
           "en": "A network of children distributes flyers to every house.",
           "zh": "儿童网络向每家每户分发传单。"
         }
+      ],
+      "synonyms": [
+        "categorize",
+        "sort",
+        "courier",
+        "allot",
+        "dispend",
+        "parcel out",
+        "disperse",
+        "sparble",
+        "strew"
       ]
     },
     {
@@ -17672,6 +17748,9 @@
           "en": "That guy causes a lot of trouble, you know, he's such a disturbance.",
           "zh": "那家伙惹了很多麻烦，你知道，他真是个麻烦事。"
         }
+      ],
+      "antonyms": [
+        "calmness"
       ]
     },
     {
@@ -17722,7 +17801,10 @@
       "morph_note": "",
       "ipa_uk": "/daɪˈvɜː(ɹ)sɪti/",
       "ipa_us": "/daɪˈvɜː(ɹ)sɪti/",
-      "en_def": "The quality of being diverse or different; difference or unlikeness."
+      "en_def": "The quality of being diverse or different; difference or unlikeness.",
+      "synonyms": [
+        "selection"
+      ]
     },
     {
       "word": "divert",
@@ -17750,6 +17832,9 @@
           "en": "Don't let him divert your attention; keep your eye on the ball.",
           "zh": "不要让他转移你的注意力； 密切关注球。"
         }
+      ],
+      "synonyms": [
+        "offlead"
       ]
     },
     {
@@ -17800,7 +17885,31 @@
       "morph_note": "",
       "ipa_uk": "/dɪˈvaɪn/",
       "ipa_us": "/dɪˈvaɪn/",
-      "en_def": "One skilled in divinity; a theologian."
+      "en_def": "One skilled in divinity; a theologian.",
+      "synonyms": [
+        "Allah",
+        "God",
+        "deity",
+        "god",
+        "clergyman",
+        "cleric",
+        "man of the cloth",
+        "theologian",
+        "beautiful",
+        "delightful"
+      ],
+      "antonyms": [
+        "horrible",
+        "horrid",
+        "nasty",
+        "unpleasant",
+        "godless",
+        "secular",
+        "ungodly",
+        "undivine",
+        "humdrum",
+        "mediocre"
+      ]
     },
     {
       "word": "dock",
@@ -17832,6 +17941,11 @@
           "en": "I docked the laptop and allowed it to recharge for an hour.",
           "zh": "我将笔记本电脑插入坞站并让它充电一个小时。"
         }
+      ],
+      "synonyms": [
+        "slip",
+        "quay",
+        "wharf"
       ]
     },
     {
@@ -17906,6 +18020,16 @@
           "en": "Dealing with complaints isn't really my domain: get in touch with customer services.",
           "zh": "处理投诉并不是我的职责：与客户服务部门联系。"
         }
+      ],
+      "synonyms": [
+        "domain name",
+        "hostname",
+        "demesne",
+        "domain of definition"
+      ],
+      "antonyms": [
+        "codomain",
+        "range"
       ]
     },
     {
@@ -17952,6 +18076,17 @@
           "en": "The dominant plants of the Carboniferous were lycopods and early conifers.",
           "zh": "石炭纪的优势植物是石松类和早期针叶树。"
         }
+      ],
+      "synonyms": [
+        "dominator",
+        "prevalent",
+        "imposing"
+      ],
+      "antonyms": [
+        "defiant",
+        "obedient",
+        "rebellious",
+        "submissive"
       ]
     },
     {
@@ -17980,6 +18115,18 @@
           "en": "The dominant plants of the Carboniferous were lycopods and early conifers.",
           "zh": "石炭纪的优势植物是石松类和早期针叶树。"
         }
+      ],
+      "synonyms": [
+        "prevalent",
+        "imposing"
+      ],
+      "antonyms": [
+        "defiant",
+        "obedient",
+        "rebellious",
+        "submissive",
+        "obey",
+        "submit"
       ]
     },
     {
@@ -18064,6 +18211,10 @@
           "en": "a carbonyl donor molecule",
           "zh": "羰基供体分子"
         }
+      ],
+      "synonyms": [
+        "donater",
+        "donator"
       ]
     },
     {
@@ -18107,6 +18258,10 @@
           "en": "He doubted that was really what you meant.",
           "zh": "他怀疑这确实是你的意思。"
         }
+      ],
+      "synonyms": [
+        "distrust",
+        "mistrust"
       ]
     },
     {
@@ -18163,6 +18318,9 @@
           "en": "The downside of obtaining a higher rank is that far more work is expected.",
           "zh": "获得更高级别的缺点是需要做更多的工作。"
         }
+      ],
+      "antonyms": [
+        "upside"
       ]
     },
     {
@@ -18191,6 +18349,14 @@
           "en": "His position in society moved ever downward.",
           "zh": "他的社会地位不断下降。"
         }
+      ],
+      "synonyms": [
+        "down",
+        "downwards"
+      ],
+      "antonyms": [
+        "up",
+        "upwards"
       ]
     },
     {
@@ -18219,6 +18385,14 @@
           "en": "After the rise in oil prices, the economy headed downwards.",
           "zh": "油价上涨后，经济开始下行。"
         }
+      ],
+      "synonyms": [
+        "down",
+        "downward"
+      ],
+      "antonyms": [
+        "up",
+        "upwards"
       ]
     },
     {
@@ -18245,6 +18419,21 @@
           "en": "There must have been dozens of examples just on the first page.",
           "zh": "仅仅第一页上肯定有几十个例子。"
         }
+      ],
+      "synonyms": [
+        "a great deal",
+        "a lot",
+        "heaps",
+        "hundreds",
+        "loads",
+        "lots",
+        "many",
+        "millions",
+        "scads",
+        "scores"
+      ],
+      "antonyms": [
+        "few"
       ]
     },
     {
@@ -18277,6 +18466,9 @@
           "en": "He left the country to avoid the draft.",
           "zh": "他离开这个国家是为了避免征兵。"
         }
+      ],
+      "synonyms": [
+        "swig"
       ]
     },
     {
@@ -18333,6 +18525,9 @@
           "en": "If our third attempt fails, we may need drastic ideas.",
           "zh": "如果我们的第三次尝试失败，我们可能需要激进的想法。"
         }
+      ],
+      "synonyms": [
+        "draconian"
       ]
     },
     {
@@ -18391,6 +18586,9 @@
           "en": "He left the country to avoid the draft.",
           "zh": "他离开这个国家是为了避免征兵。"
         }
+      ],
+      "synonyms": [
+        "swig"
       ]
     },
     {
@@ -18423,6 +18621,10 @@
           "en": "She had to draw upon her experience to solve the problem.",
           "zh": "她必须利用自己的经验来解决这个问题。"
         }
+      ],
+      "synonyms": [
+        "stalemate",
+        "dry creek"
       ]
     },
     {
@@ -18511,6 +18713,24 @@
           "en": "Some old model trains have clockwork drives.",
           "zh": "一些旧模型火车有发条驱动器。"
         }
+      ],
+      "synonyms": [
+        "line drive",
+        "disk drive",
+        "approach",
+        "driveway",
+        "engine",
+        "mechanism",
+        "motor",
+        "desire",
+        "impetus",
+        "impulse"
+      ],
+      "antonyms": [
+        "inertia",
+        "laziness",
+        "phlegm",
+        "sloth"
       ]
     },
     {
@@ -18543,6 +18763,18 @@
           "en": "to drive twenty thousand head of cattle from Texas to the Kansas railheads; to drive sheep out of a field",
           "zh": "将两万头牛从德克萨斯州赶到堪萨斯州的铁路终点站； 把羊赶出田地"
         }
+      ],
+      "synonyms": [
+        "move",
+        "operate",
+        "make",
+        "render",
+        "send",
+        "compel",
+        "force",
+        "oblige",
+        "push",
+        "require"
       ]
     },
     {
@@ -18599,6 +18831,10 @@
           "en": "The answers intelligence services seek are often drowned in the flood of information they can now gather.",
           "zh": "情报部门寻求的答案常常被他们现在收集的大量信息淹没。"
         }
+      ],
+      "synonyms": [
+        "flood",
+        "inundate"
       ]
     },
     {
@@ -18631,6 +18867,9 @@
           "en": "Devin dried her eyes with a handkerchief.",
           "zh": "德文用手帕擦干眼睛。"
         }
+      ],
+      "antonyms": [
+        "wet"
       ]
     },
     {
@@ -18663,6 +18902,12 @@
           "en": "Modern Arabic displays a dual number, as did Homeric Greek.",
           "zh": "现代阿拉伯语显示双数，荷马希腊语也是如此。"
         }
+      ],
+      "synonyms": [
+        "opposite",
+        "double",
+        "duplicate",
+        "twin"
       ]
     },
     {
@@ -18713,6 +18958,9 @@
           "en": "A razor will dull with use.",
           "zh": "剃刀会随着使用而变钝。"
         }
+      ],
+      "synonyms": [
+        "dullen"
       ]
     },
     {
@@ -18745,6 +18993,18 @@
           "en": "You are so dumb! You don't even know how to make toast!",
           "zh": "你太笨了！ 你根本不知道怎么做吐司！"
         }
+      ],
+      "synonyms": [
+        "banal",
+        "brainless",
+        "dopey",
+        "ridiculous",
+        "silly",
+        "stupid",
+        "vulgar",
+        "dumbstruck",
+        "mute",
+        "speechless"
       ]
     },
     {
@@ -18795,7 +19055,12 @@
       "morph_note": "",
       "ipa_uk": "/ˈdjuː.əʊ/",
       "ipa_us": "/ˈdjuː.əʊ/",
-      "en_def": "Two people who work or collaborate together as partners; especially, those who perform music together."
+      "en_def": "Two people who work or collaborate together as partners; especially, those who perform music together.",
+      "synonyms": [
+        "couple",
+        "pair",
+        "twosome"
+      ]
     },
     {
       "word": "duration",
@@ -18851,6 +19116,18 @@
           "en": "If you pay attention to the dynamics as you play, it's a very moving piece.",
           "zh": "如果你在演奏时注意动态，就会发现这是一首非常感人的作品。"
         }
+      ],
+      "synonyms": [
+        "apparatus",
+        "course of action",
+        "design",
+        "effect",
+        "function",
+        "functioning",
+        "implementation",
+        "interchange",
+        "interplay",
+        "mechanism"
       ]
     },
     {
@@ -18879,6 +19156,9 @@
           "en": "an eager algorithm",
           "zh": "急切的算法"
         }
+      ],
+      "synonyms": [
+        "raring"
       ]
     },
     {
@@ -18927,6 +19207,18 @@
           "en": "The provision of extra staff eased their workload.",
           "zh": "额外人员的配备减轻了他们的工作量。"
         }
+      ],
+      "synonyms": [
+        "ability",
+        "dexterity",
+        "facility",
+        "skill",
+        "comfort",
+        "peace",
+        "free time",
+        "leisure",
+        "relaxation",
+        "rest"
       ]
     },
     {
@@ -18997,7 +19289,11 @@
       "morph_note": "",
       "ipa_uk": "/ˌiːkəˈlɒd͡ʒɪkl̩/",
       "ipa_us": "/ˌiːkəˈlɒd͡ʒɪkl̩/",
-      "en_def": "Relating to ecology, the interrelationships of organisms and their environment."
+      "en_def": "Relating to ecology, the interrelationships of organisms and their environment.",
+      "synonyms": [
+        "ecologically friendly",
+        "environmentally friendly"
+      ]
     },
     {
       "word": "ecology",
@@ -19043,6 +19339,15 @@
           "en": "Although stale, the bread was edible.",
           "zh": "虽然面包不新鲜了，但还是可以吃的。"
         }
+      ],
+      "synonyms": [
+        "food",
+        "comestible",
+        "eatable",
+        "eatworthy"
+      ],
+      "antonyms": [
+        "inedible"
       ]
     },
     {
@@ -19119,6 +19424,14 @@
           "en": "I have an efficiency available June through July.",
           "zh": "我有六月到七月的效率。"
         }
+      ],
+      "synonyms": [
+        "bedsit",
+        "efficiency apartment"
+      ],
+      "antonyms": [
+        "inefficiency",
+        "wastefulness"
       ]
     },
     {
@@ -19217,6 +19530,9 @@
           "en": "Salmon River empties on the W shore about 2 miles below Bear River.",
           "zh": "萨蒙河 (Salmon River) 在熊河 (Bear River) 下方约 2 英里处的西岸注入水。"
         }
+      ],
+      "antonyms": [
+        "fill"
       ]
     },
     {
@@ -19261,6 +19577,11 @@
           "en": "Please enclose a stamped self-addressed envelope if you require a reply.",
           "zh": "如果您需要回复，请附上贴好邮票的回邮信封。"
         }
+      ],
+      "synonyms": [
+        "encastellate",
+        "fortify",
+        "incastellate"
       ]
     },
     {
@@ -19289,6 +19610,10 @@
           "en": "Drake encompassed the globe.",
           "zh": "德雷克涵盖了全球。"
         }
+      ],
+      "synonyms": [
+        "comprehend",
+        "embrace"
       ]
     },
     {
@@ -19339,6 +19664,14 @@
           "en": "The royal family has always encouraged the arts in word and deed",
           "zh": "王室一直在言行上鼓励艺术"
         }
+      ],
+      "synonyms": [
+        "bield",
+        "embolden"
+      ],
+      "antonyms": [
+        "becourage",
+        "discourage"
       ]
     },
     {
@@ -19357,7 +19690,10 @@
       "morph_note": "",
       "ipa_uk": "/ɪnˈdɛv.ə/",
       "ipa_us": "/ɪnˈdɛv.ə/",
-      "en_def": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity."
+      "en_def": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
+      "synonyms": [
+        "strive"
+      ]
     },
     {
       "word": "endless",
@@ -19385,6 +19721,16 @@
           "en": "an endless line",
           "zh": "无尽的线"
         }
+      ],
+      "synonyms": [
+        "eternal",
+        "infinite",
+        "unlimited",
+        "unending"
+      ],
+      "antonyms": [
+        "finite",
+        "limited"
       ]
     },
     {
@@ -19451,7 +19797,16 @@
       "morph_note": "",
       "ipa_uk": "/ɪˈkwɒl.ɪ.ti/",
       "ipa_us": "/ɪˈkwɒl.ɪ.ti/",
-      "en_def": "The fact of being equal."
+      "en_def": "The fact of being equal.",
+      "synonyms": [
+        "equivalence"
+      ],
+      "antonyms": [
+        "difference",
+        "inequality",
+        "nonequivilence",
+        "discrimination"
+      ]
     },
     {
       "word": "equally",
@@ -19567,6 +19922,14 @@
           "en": "to erect a house or a fort",
           "zh": "建造房屋或堡垒"
         }
+      ],
+      "synonyms": [
+        "hard",
+        "stiff",
+        "build"
+      ],
+      "antonyms": [
+        "flaccid"
       ]
     },
     {
@@ -19679,6 +20042,14 @@
           "en": "vanilla essence",
           "zh": "香草精"
         }
+      ],
+      "synonyms": [
+        "aroma",
+        "bouquet",
+        "quintessence",
+        "whatness",
+        "crux",
+        "gist"
       ]
     },
     {
@@ -19711,6 +20082,12 @@
           "en": "Exposing the shabby parts of the establishment.",
           "zh": "暴露该机构的破旧部分。"
         }
+      ],
+      "synonyms": [
+        "foundation"
+      ],
+      "antonyms": [
+        "abolition"
       ]
     },
     {
