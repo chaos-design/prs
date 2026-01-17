@@ -17,7 +17,7 @@ export default function Stats({ stats }: StatsProps) {
 
   return (
     <div className="space-y-3">
-      <button 
+      <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-brand-600 transition-colors"
       >
@@ -27,7 +27,7 @@ export default function Stats({ stats }: StatsProps) {
         </span>
         <span className={`material-symbols-outlined text-[18px] text-slate-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}>expand_more</span>
       </button>
-      
+
       {isOpen && (
         <div className="grid grid-cols-2 gap-2">
           <div className="rounded-xl bg-white border border-slate-100 px-3 py-2 shadow-sm flex flex-col justify-between">

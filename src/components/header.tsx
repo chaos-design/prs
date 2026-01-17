@@ -34,8 +34,8 @@ export default function Header(_props: HeaderProps) {
             <button
               type='button'
               className={`px-4 py-1.5 rounded-full transition-all duration-200 ${currentPath === '/'
-                  ? 'bg-white text-brand-600 shadow-sm ring-1 ring-slate-200'
-                  : 'hover:text-slate-700'
+                ? 'bg-white text-brand-600 shadow-sm ring-1 ring-slate-200'
+                : 'hover:text-slate-700'
                 }`}
               onClick={() => navigate('/')}
             >
@@ -44,8 +44,8 @@ export default function Header(_props: HeaderProps) {
             <button
               type='button'
               className={`px-4 py-1.5 rounded-full transition-all duration-200 ${currentPath === '/scenarios'
-                  ? 'bg-white text-brand-600 shadow-sm ring-1 ring-slate-200'
-                  : 'hover:text-slate-700'
+                ? 'bg-white text-brand-600 shadow-sm ring-1 ring-slate-200'
+                : 'hover:text-slate-700'
                 }`}
               onClick={() => navigate('/scenarios')}
             >
