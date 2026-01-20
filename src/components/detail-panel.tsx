@@ -338,7 +338,7 @@ export default function DetailPanel({
 				</div>
 			</div>
 
-			<div className='pl-4 pr-4 pt-2'>
+			<div className='p-4'>
 				<div className='mt-2 space-y-2 text-sm'>
 					{/* Word Details Group */}
 					<div id='content' className='space-y-4 scroll-mt-40'>
