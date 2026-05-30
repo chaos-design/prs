@@ -7,9 +7,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const FILES = [
-	// 'src/data/b2_vocab.json',
+	'src/data/b2_vocab.json',
 	'src/data/c1_vocab.json',
-	// 'src/data/c2_vocab.json',
+	'src/data/c2_vocab.json',
 ];
 
 const CONFIG = {
@@ -17,6 +17,28 @@ const CONFIG = {
 };
 
 const API_BASE = 'https://api.dictionaryapi.dev/api/v2/entries/en/';
+
+function normalizeIpa (value) {
+	if (!value || typeof value !== 'string') return '';
+
+	let ipa = value.trim();
+
+	ipa = ipa.replace(/^\[/, '/').replace(/\]$/, '/');
+	if (!ipa.startsWith('/')) ipa = `/${ipa}`;
+	if (!ipa.endsWith('/')) ipa = `${ipa}/`;
+
+	return ipa
+		.replace(/\./g, '')
+		.replace(/\u032f/g, '')
+		.replace(/n\u0329/g, 'ən')
+		.replace(/l\u0329/g, 'əl')
+		.replace(/m\u0329/g, 'əm')
+		.replace(/ɚ/g, 'ər')
+		.replace(/ɝ/g, 'ɜːr')
+		.replace(/ɹ/g, 'r')
+		.replace(/[()]/g, '')
+		.replace(/\s+/g, '');
+}
 
 async function sleep (ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
@@ -48,7 +70,7 @@ async function translateSentence (sentence, retries = 3) {
 
 async function fetchWordData (word) {
 	try {
-		const response = await fetch(`${API_BASE}${word}`);
+		const response = await fetch(`${API_BASE}${encodeURIComponent(word)}`);
 		if (!response.ok) {
 			if (response.status === 404) {
 				return null;
@@ -139,7 +161,14 @@ async function extractDetails (data) {
 	synonyms = [...new Set(synonyms)].slice(0, 10);
 	antonyms = [...new Set(antonyms)].slice(0, 10);
 
-	return { ipa_uk, ipa_us, en_def, sentences, synonyms, antonyms };
+	return {
+		ipa_uk: normalizeIpa(ipa_uk),
+		ipa_us: normalizeIpa(ipa_us),
+		en_def,
+		sentences,
+		synonyms,
+		antonyms,
+	};
 }
 
 async function processFile (filePath) {

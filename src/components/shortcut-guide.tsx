@@ -15,7 +15,7 @@ export default function ShortcutGuide() {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 flex flex-col items-end gap-2">
+    <div className="fixed bottom-4 right-4 z-50 hidden flex-col items-end gap-2 md:flex">
       {isOpen && (
         <Card className="w-56 shadow-lg border-slate-200 animate-in fade-in slide-in-from-bottom-5">
             <div className="p-2.5 bg-slate-50 border-b border-slate-100 flex items-center justify-between">
@@ -23,7 +23,7 @@ export default function ShortcutGuide() {
                     <Keyboard className="h-3 w-3" />
                     快捷键指南
                 </span>
-                <button onClick={() => toggleOpen(false)} className="text-slate-400 hover:text-slate-600">
+                <button onClick={() => toggleOpen(false)} className="cursor-pointer rounded-full p-0.5 text-slate-400 hover:bg-slate-100 hover:text-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300">
                     <ChevronDown className="h-3.5 w-3.5" />
                 </button>
             </div>
@@ -62,7 +62,7 @@ export default function ShortcutGuide() {
         <Button 
             variant="outline" 
             size="icon" 
-            className="h-10 w-10 rounded-full shadow-md bg-white hover:bg-slate-50"
+            className="h-10 w-10 cursor-pointer rounded-full bg-white shadow-md hover:bg-slate-50"
             onClick={() => toggleOpen(true)}
         >
             <Keyboard className="h-5 w-5 text-slate-600" />

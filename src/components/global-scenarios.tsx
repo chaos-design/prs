@@ -102,7 +102,9 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 			// If searching, filter examples
 			if (head.trim()) {
 				matchedExamples = c.examples.map((ex, idx) => {
-					if (!ex.en || !ex.en.toLowerCase().includes(headLower)) return null;
+					const matchesEn = ex.en?.toLowerCase().includes(headLower);
+					const matchesZh = ex.zh?.includes(head.trim());
+					if (!matchesEn && !matchesZh) return null;
 					return { ...ex, idx };
 				}).filter((item) => item !== null);
 			} else {
@@ -196,12 +198,12 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 	};
 
 	return (
-		<div className="space-y-6 h-[calc(100vh-140px)] overflow-hidden flex flex-col">
+		<div className="flex min-h-[680px] flex-col space-y-4 overflow-hidden lg:h-[calc(100vh-118px)]">
 			{/* Header Section */}
 			<AnimatePresence>
 				<motion.div
 					initial={{ height: 'auto', opacity: 1 }}
-					className="flex items-center justify-between flex-shrink-0"
+					className="flex flex-shrink-0 flex-wrap items-center justify-between gap-3"
 				>
 					<div className="space-y-1">
 						<h3 className="text-lg font-bold text-slate-800 flex items-center gap-2">
@@ -230,9 +232,9 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 				</motion.div>
 			</AnimatePresence>
 
-			<div className="flex-1 min-h-0 grid grid-cols-12 gap-3">
+			<div className="grid min-h-0 flex-1 grid-cols-1 gap-3 lg:grid-cols-12">
 				{/* Left Sidebar: Tags & Search */}
-				<div className="col-span-3 flex flex-col gap-2 overflow-hidden pr-2 pb-4 h-full">
+				<div className="flex max-h-[280px] flex-col gap-2 overflow-hidden rounded-xl border border-slate-100 bg-white/70 p-2 shadow-sm lg:col-span-3 lg:max-h-none lg:h-full">
 					<div className="space-y-2 p-1">
 						{/* <label htmlFor="global-scenarios-word-input" className="text-xs font-semibold text-slate-500 uppercase tracking-wider">搜索筛选</label> */}
 						<div className="relative group">
@@ -242,14 +244,15 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 								type="text"
 								autoComplete="off"
 								placeholder="搜索分类或单词..."
-								className="h-11 text-sm rounded-full pl-10 pr-10 shadow-sm border-slate-200 focus:border-brand-300 focus:ring-brand-100 bg-white transition-all hover:border-brand-200 hover:shadow"
+								className="h-10 rounded-xl border-slate-200 bg-white text-sm shadow-sm transition-all pl-10 pr-10 hover:border-brand-200 hover:shadow focus:border-brand-300 focus:ring-brand-100"
 								value={inputVal}
 								onChange={(e) => setInputVal(e.target.value)}
 							/>
 							{inputVal && (
 								<button
 									onClick={() => setInputVal('')}
-									className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 hover:bg-slate-100 rounded-full transition-colors"
+									className="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer rounded-full p-1 text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300"
+									aria-label="清空场景搜索"
 								>
 									<X className="h-4 w-4" />
 								</button>
@@ -269,7 +272,7 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 							</button>
 						)}
 					</div>
-					<div className="space-y-2 overflow-y-auto scroll-smooth h-[calc(100%-20px)]">
+					<div className="h-[calc(100%-20px)] space-y-2 overflow-y-auto scroll-smooth">
 						<div className="flex flex-col gap-2">
 							{visibleScenarios.map(scenario => {
 								const parts = scenario.name.split(/ · | - |：/);
@@ -283,7 +286,7 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 									<button
 										key={scenario.id}
 										className={clsx(
-											"text-left px-3 py-3 rounded-xl text-sm transition-all duration-200 border flex items-center gap-3 group w-full",
+											"group flex w-full cursor-pointer items-center gap-3 rounded-xl border px-3 py-2.5 text-left text-sm transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300",
 											selectedTags.includes(scenario.name)
 												? "bg-brand-100 border-indigo-300 shadow-sm ring-1 ring-indigo-200"
 												: "bg-white border-transparent hover:bg-slate-50 hover:border-slate-100 hover:shadow-sm"
@@ -307,7 +310,7 @@ export default function GlobalScenarios({ scenarios, reciteMode, accent, onToggl
 				</div>
 
 				{/* Right Content: Scrollable List */}
-				<div ref={scrollContainerRef} className="col-span-9 h-full overflow-y-auto rounded-2xl bg-slate-50/30 border border-slate-100 scroll-smooth relative [scrollbar-gutter:stable] pr-2">
+				<div ref={scrollContainerRef} className="relative min-h-[420px] overflow-y-auto rounded-xl border border-slate-100 bg-slate-50/30 pr-2 scroll-smooth [scrollbar-gutter:stable] lg:col-span-9 lg:h-full">
 					{renderContent()}
 				</div>
 			</div>

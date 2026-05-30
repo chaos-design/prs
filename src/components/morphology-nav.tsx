@@ -78,8 +78,8 @@ export default function MorphologyNav({
 		if (!index || !index.letterMap) return null;
 
 		return (
-			<div className='space-y-2 relative overflow-hidden h-full'>
-				<div className='flex items-center justify-between gap-2 mb-2 pl-4 pr-4'>
+			<div className='relative h-full space-y-2 overflow-hidden'>
+				<div className='mb-2 flex items-center justify-between gap-2 px-4'>
 					<p className='text-[11px] text-slate-500'>
 						{kind === 'prefix' &&
 							'按字母索引展开前缀组，点击小标签展开该前缀下的所有词汇。'}
@@ -89,14 +89,14 @@ export default function MorphologyNav({
 					<div className='flex items-center gap-1 shrink-0'>
 						<button
 							type='button'
-							className='rounded-full border border-slate-200 bg-white/80 px-2 py-0.5 text-[10px] text-slate-600 hover:border-brand-300 hover:text-brand-700'
+							className='cursor-pointer rounded-full border border-slate-200 bg-white/80 px-2 py-0.5 text-[10px] text-slate-600 transition-colors hover:border-brand-300 hover:text-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300'
 							onClick={() => expandAll(kind)}
 						>
 							展开
 						</button>
 						<button
 							type='button'
-							className='rounded-full border border-slate-200 bg-white/80 px-2 py-0.5 text-[10px] text-slate-600 hover:border-brand-300 hover:text-brand-700'
+							className='cursor-pointer rounded-full border border-slate-200 bg-white/80 px-2 py-0.5 text-[10px] text-slate-600 transition-colors hover:border-brand-300 hover:text-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300'
 							onClick={() => collapseAll(kind)}
 						>
 							折叠
@@ -104,7 +104,7 @@ export default function MorphologyNav({
 					</div>
 				</div>
 
-				<div className='flex-1 min-h-0 space-y-2 pb-10 pl-4 pr-4 overflow-y-auto smooth-scroll h-[calc(100%-30px)]'>
+				<div className='smooth-scroll h-[calc(100%-30px)] min-h-0 flex-1 space-y-2 overflow-y-auto px-4 pb-10'>
 					{LETTER_LIST.map(letter => {
 						const groups = index.letterMap[letter];
 						if (!groups || !groups.length) return null;
@@ -113,11 +113,19 @@ export default function MorphologyNav({
 						return (
 							<div
 								key={letter}
-								className='letter-section bg-white/50 mb-2 rounded-2xl border border-slate-200'
+								className='letter-section mb-2 rounded-xl border border-slate-200 bg-white/60 shadow-sm'
 							>
 								<div
-									className='sticky top-0 z-10 flex items-center justify-between rounded-2xl gap-2 px-3 py-2 cursor-pointer select-none text-xs text-slate-700 bg-white/95 backdrop-blur border-b border-slate-100 shadow-sm transition-colors hover:bg-slate-50'
+									className='sticky top-0 z-10 flex cursor-pointer select-none items-center justify-between gap-2 rounded-xl border-b border-slate-100 bg-white/95 px-3 py-2 text-xs text-slate-700 shadow-sm backdrop-blur transition-colors hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300'
 									onClick={() => toggleLetter(letter)}
+									role='button'
+									tabIndex={0}
+									onKeyDown={event => {
+										if (event.key === 'Enter' || event.key === ' ') {
+											event.preventDefault();
+											toggleLetter(letter);
+										}
+									}}
 								>
 									<div className='flex items-center gap-2'>
 										<span className='inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-900 text-white text-[11px] font-semibold'>
@@ -135,7 +143,7 @@ export default function MorphologyNav({
 								</div>
 
 								{openLetters[letter] && (
-									<div className='bg-slate-50/70 px-3 py-2 space-y-2'>
+									<div className='space-y-2 bg-slate-50/70 px-3 py-2'>
 										{groups.map((g: MorphGroup, index: number) => {
 										const groupId = getGroupId(kind, g.label);
 										const isOpen = openGroups[groupId];
@@ -148,11 +156,11 @@ export default function MorphologyNav({
 											<div
 												key={`${groupId}-${index}`}
 												id={groupId}
-												className='border-l border-slate-200 pl-2.5 py-1.5 space-y-1.5'
+													className='space-y-1.5 border-l border-slate-200 py-1.5 pl-2.5'
 											>
 													<button
 														type='button'
-														className='flex w-full items-center justify-between gap-2 text-xs text-slate-700 hover:text-brand-700'
+														className='flex w-full cursor-pointer items-center justify-between gap-2 rounded-lg px-1 py-0.5 text-xs text-slate-700 transition-colors hover:bg-white hover:text-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300'
 														onClick={() => toggleGroup(groupId)}
 													>
 														<div className='flex items-center gap-1.5'>
@@ -183,7 +191,7 @@ export default function MorphologyNav({
 																	<button
 																		key={w._idx}
 																		type='button'
-																		className={`w-full text-left rounded-md px-2 py-1 flex items-center justify-between gap-2 text-[11px] hover:bg-brand-50/80 hover:text-brand-700 ${currentEntry?._idx ===
+																		className={`flex w-full cursor-pointer items-center justify-between gap-2 rounded-lg px-2 py-1.5 text-left text-[11px] transition-colors hover:bg-brand-50/80 hover:text-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300 ${currentEntry?._idx ===
 																			w._idx
 																			? 'bg-brand-100 text-brand-800 font-medium shadow-sm ring-1 ring-brand-200'
 																			: ''
@@ -246,7 +254,7 @@ export default function MorphologyNav({
 	const getTabClass = (tabName: string) => {
 		const isActive = currentMorphTab === tabName;
 		const base =
-			'group rounded-xl border shadow-sm px-3 py-1 text-left flex flex-col justify-between transition-all cursor-pointer';
+			'group flex cursor-pointer flex-col justify-between rounded-xl border px-3 py-2 text-left shadow-sm transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300';
 
 		if (isActive) {
 			return `${base} border-brand-100 bg-white ring-1 ring-brand-500/70 text-brand-700`;
@@ -256,15 +264,15 @@ export default function MorphologyNav({
 	};
 
 	return (
-		<div className='flex flex-col h-full space-y-4'>
-			<h3 className='flex-shrink-0 text-xs font-semibold text-slate-700 flex items-center gap-1.5 pl-4 pr-4'>
+		<div className='flex h-full flex-col space-y-3'>
+			<h3 className='flex flex-shrink-0 items-center gap-1.5 px-4 text-xs font-semibold text-slate-700'>
 				<span className='material-symbols-outlined text-[18px] text-brand-500'>
 					category
 				</span>
 				三大入口：按前缀 / 词根 / 后缀浏览
 			</h3>
 
-			<div className='flex-shrink-0 grid gap-3 sm:grid-cols-3 pl-4 pr-4'>
+			<div className='grid flex-shrink-0 gap-2 px-4 sm:grid-cols-3'>
 				<div onClick={() => setCurrentMorphTab('prefix')} className={getTabClass('prefix')}>
 					<div className='flex items-center justify-between gap-2'>
 						<div>

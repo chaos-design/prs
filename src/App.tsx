@@ -292,14 +292,14 @@ function App() {
         </motion.div>
       </AnimatePresence>
 
-      <main className='flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-6 space-y-6'>
+      <main className='mx-auto w-full max-w-7xl flex-1 space-y-6 px-3 py-4 sm:px-6 sm:py-5'>
         <Routes>
           <Route path="/" element={
-            <div className='h-[calc(100vh-140px)] min-h-[600px]'>
-              <section className='grid grid-cols-1 lg:grid-cols-12 gap-6 h-full items-start'>
+            <div className='min-h-[680px] lg:h-[calc(100vh-118px)]'>
+              <section className='grid h-full grid-cols-1 items-start gap-4 lg:grid-cols-12'>
                 {/* Left Sidebar: Search, Stats, Morphology Nav */}
-                <aside className='lg:col-span-6 flex flex-col gap-4 h-full overflow-hidden bg-white/50 rounded-2xl border border-slate-200/50 relative'>
-                  <div className='flex-shrink-0 space-y-4 p-4 pb-0'>
+                <aside className='relative flex h-full flex-col gap-3 overflow-hidden rounded-xl border border-slate-200/70 bg-white/70 shadow-sm shadow-slate-200/40 backdrop-blur lg:col-span-6'>
+                  <div className='flex-shrink-0 space-y-3 p-3 pb-0 sm:p-4 sm:pb-0'>
                     <GlobalSearch
                       onSearch={handleSearch}
                       searchResults={searchResults}
@@ -335,7 +335,7 @@ function App() {
                       onToggleRecite={() => setReciteMode(!reciteMode)}
                       onStudyNav={handleStudyNav}
                     />
-                    <Stats stats={stats} />
+                    <Stats level={level} stats={stats} />
                   </div>
 
                   <div className='flex-1 min-h-0 relative z-10 overflow-hidden'>
@@ -361,7 +361,7 @@ function App() {
                 </aside>
 
                 {/* Right Content: Detail Panel */}
-                <div className='lg:col-span-6 h-full overflow-y-auto'>
+                <div className='h-full overflow-y-auto rounded-xl lg:col-span-6'>
                   <DetailPanel
                     key={
                       currentEntry

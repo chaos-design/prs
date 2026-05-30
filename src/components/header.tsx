@@ -6,16 +6,18 @@ interface HeaderProps {
   onLevelChange: (level: string) => void;
 }
 
-export default function Header(_props: HeaderProps) {
+const LEVELS = ['B2', 'C1', 'C2'];
+
+export default function Header({ level, onLevelChange }: HeaderProps) {
   const navigate = useNavigate();
   const location = useLocation();
   const currentPath = location.pathname;
 
   return (
-    <header className='border-b border-slate-200 bg-white/80 backdrop-blur sticky top-0 z-50'>
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4'>
+    <header className='sticky top-0 z-50 border-b border-slate-200/80 bg-white/85 backdrop-blur-xl'>
+      <div className='mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-2.5 sm:px-6'>
         <div className='flex items-center gap-3 min-w-0'>
-          <div className='h-9 w-9 rounded-xl bg-gradient-to-tr from-brand-500 to-indigo-400 flex items-center justify-center text-white shadow-md shadow-indigo-200/80 flex-shrink-0'>
+          <div className='h-9 w-9 flex-shrink-0 rounded-xl bg-gradient-to-tr from-brand-500 to-indigo-400 flex items-center justify-center text-white shadow-md shadow-indigo-200/80'>
             <Workflow className='h-5 w-5' />
           </div>
           <div className='hidden md:block'>
@@ -29,11 +31,11 @@ export default function Header(_props: HeaderProps) {
         </div>
 
         {/* Center Tabs */}
-        <div className='flex-1 flex justify-center'>
+        <div className='order-3 flex w-full justify-center sm:order-none sm:w-auto sm:flex-1'>
           <div className='inline-flex rounded-full bg-slate-100 p-1 text-xs font-medium text-slate-500 shadow-inner'>
             <button
               type='button'
-              className={`px-4 py-1.5 rounded-full transition-all duration-200 ${currentPath === '/'
+              className={`cursor-pointer rounded-full px-4 py-1.5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300 ${currentPath === '/'
                 ? 'bg-white text-brand-600 shadow-sm ring-1 ring-slate-200'
                 : 'hover:text-slate-700'
                 }`}
@@ -43,7 +45,7 @@ export default function Header(_props: HeaderProps) {
             </button>
             <button
               type='button'
-              className={`px-4 py-1.5 rounded-full transition-all duration-200 ${currentPath === '/scenarios'
+              className={`cursor-pointer rounded-full px-4 py-1.5 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300 ${currentPath === '/scenarios'
                 ? 'bg-white text-brand-600 shadow-sm ring-1 ring-slate-200'
                 : 'hover:text-slate-700'
                 }`}
@@ -54,12 +56,29 @@ export default function Header(_props: HeaderProps) {
           </div>
         </div>
 
-        <div className='flex items-center gap-1 flex-shrink-0'>
+        <div className='flex flex-shrink-0 items-center gap-2'>
+          <div className='inline-flex items-center rounded-full border border-slate-200 bg-white/90 p-1 text-[11px] font-semibold text-slate-500 shadow-sm'>
+            {LEVELS.map(item => (
+              <button
+                key={item}
+                type='button'
+                className={`cursor-pointer rounded-full px-2.5 py-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300 ${level === item
+                  ? 'bg-brand-50 text-brand-700 shadow-sm ring-1 ring-brand-100'
+                  : 'hover:bg-slate-50 hover:text-slate-700'
+                  }`}
+                aria-pressed={level === item}
+                onClick={() => onLevelChange(item)}
+              >
+                {item}
+              </button>
+            ))}
+          </div>
           <a
             href='https://github.com/chaos-design/prs'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-slate-400 hover:text-slate-600 transition-colors p-2'
+            className='cursor-pointer rounded-full p-2 text-slate-400 transition-colors hover:bg-slate-100 hover:text-slate-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300'
+            aria-label='打开 GitHub 仓库'
           >
             <svg
               role='img'

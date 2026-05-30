@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 interface StatsProps {
+  level: string;
   stats: {
     totalEntries: number;
     totalWords: number;
@@ -11,19 +12,26 @@ interface StatsProps {
   };
 }
 
-export default function Stats({ stats }: StatsProps) {
+export default function Stats({ level, stats }: StatsProps) {
   const { totalEntries, totalWords, totalPhrases, prefixCount, rootCount, suffixCount } = stats || {};
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-brand-600 transition-colors"
+        className="flex w-full cursor-pointer items-center justify-between rounded-xl border border-slate-100 bg-white/70 px-3 py-2 text-xs font-semibold text-slate-700 shadow-sm transition-colors hover:border-brand-100 hover:text-brand-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300"
+        aria-expanded={isOpen}
       >
         <span className="flex items-center gap-2">
           <span className="material-symbols-outlined text-[18px] text-brand-500">insights</span>
-          统计总览
+          <span>统计总览</span>
+          <span className="rounded-full bg-brand-50 px-2 py-0.5 text-[10px] font-bold text-brand-700">
+            {level}
+          </span>
+          <span className="hidden text-[10px] font-medium text-slate-400 sm:inline">
+            {totalWords || '—'} 词
+          </span>
         </span>
         <span className={`material-symbols-outlined text-[18px] text-slate-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}>expand_more</span>
       </button>

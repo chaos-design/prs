@@ -194,7 +194,7 @@ export default function GlobalSearch({
   };
 
   return (
-    <div className="space-y-2">
+    <div className="space-y-2.5">
       <div className="flex items-center justify-between gap-4">
         <div className="space-y-1">
           <h3 className="text-sm font-semibold text-slate-800 flex items-center gap-2">
@@ -207,7 +207,7 @@ export default function GlobalSearch({
           <Button
             variant={reciteMode ? 'brandOutline' : 'outline'}
             size="sm"
-            className="h-8 gap-1.5 text-xs font-medium"
+            className="h-8 cursor-pointer gap-1.5 rounded-full text-xs font-medium focus-visible:ring-2 focus-visible:ring-brand-300"
             onClick={onToggleRecite}
             aria-pressed={reciteMode}
           >
@@ -215,16 +215,16 @@ export default function GlobalSearch({
             <span>{reciteMode ? '背诵模式' : '普通模式'}</span>
           </Button>
 
-          <div className="inline-flex items-center p-1 rounded-lg border border-slate-200 bg-white shadow-sm">
-            <Button variant="ghost" size="icon" className="h-6 w-6 rounded-md" onClick={() => onStudyNav(-1)} title="上一条">
+          <div className="inline-flex items-center rounded-full border border-slate-200 bg-white p-1 shadow-sm">
+            <Button variant="ghost" size="icon" className="h-6 w-6 cursor-pointer rounded-full focus-visible:ring-2 focus-visible:ring-brand-300" onClick={() => onStudyNav(-1)} title="上一条">
               <ChevronLeft className="h-4 w-4" />
             </Button>
             <div className="w-px h-3 bg-slate-200 mx-1"></div>
-            <Button variant="ghost" size="icon" className="h-6 w-6 rounded-md" onClick={() => onStudyNav(1)} title="下一条">
+            <Button variant="ghost" size="icon" className="h-6 w-6 cursor-pointer rounded-full focus-visible:ring-2 focus-visible:ring-brand-300" onClick={() => onStudyNav(1)} title="下一条">
               <ChevronRight className="h-4 w-4" />
             </Button>
             <div className="w-px h-3 bg-slate-200 mx-1"></div>
-            <Button variant="ghost" size="icon" className="h-6 w-6 rounded-md" onClick={() => onStudyNav(null)} title="随机">
+            <Button variant="ghost" size="icon" className="h-6 w-6 cursor-pointer rounded-full focus-visible:ring-2 focus-visible:ring-brand-300" onClick={() => onStudyNav(null)} title="随机">
               <Shuffle className="h-4 w-4" />
             </Button>
           </div>
@@ -240,7 +240,7 @@ export default function GlobalSearch({
           type="text"
           autoComplete="off"
           placeholder="例如：abandon / 责任 / inter / ceive ..."
-          className="pl-8 pr-10 h-9 text-sm shadow-sm w-full placeholder:text-xs rounded-2xl"
+          className="h-10 w-full rounded-xl border-slate-200 bg-white/95 pl-8 pr-10 text-sm shadow-sm placeholder:text-xs transition-all hover:border-brand-200 focus:border-brand-300 focus:ring-brand-100"
           value={query}
           onChange={handleInput}
           onKeyDown={handleKeyDown}
@@ -262,7 +262,7 @@ export default function GlobalSearch({
             type="button"
             variant="ghost"
             size="icon"
-            className="absolute right-1 top-1/2 -translate-y-1/2 h-8 w-8 text-slate-400 hover:text-slate-600"
+            className="absolute right-1 top-1/2 h-8 w-8 -translate-y-1/2 cursor-pointer text-slate-400 hover:text-slate-600"
             onClick={handleClear}
             aria-label="清空搜索"
           >
@@ -274,7 +274,7 @@ export default function GlobalSearch({
         {showResults && hasResults && (
           <Card
             ref={resultsRef}
-            className="absolute z-50 mt-1 w-full max-h-[500px] overflow-y-auto shadow-xl border-slate-200 ring-1 ring-slate-900/5"
+            className="absolute z-50 mt-1 max-h-[500px] w-full overflow-y-auto rounded-xl border-slate-200 shadow-xl ring-1 ring-slate-900/5"
           >
             <div className="sticky top-0 bg-white/95 backdrop-blur z-20 px-3 py-2 border-b border-slate-100">
               <div className="text-xs text-slate-500 font-medium">{meta}</div>
@@ -317,7 +317,7 @@ export default function GlobalSearch({
                     <Button
                       key={i}
                       variant="ghost"
-                      className="w-full justify-start h-auto py-2 px-2 text-left font-normal hover:bg-emerald-50 hover:text-emerald-900 group flex-col items-start gap-1"
+                      className="group h-auto w-full cursor-pointer flex-col items-start justify-start gap-1 rounded-lg px-2 py-2 text-left font-normal hover:bg-emerald-50 hover:text-emerald-900"
                       onClick={() => {
                         onSelectEntry(s);
                         setShowResults(false);

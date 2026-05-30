@@ -33,7 +33,7 @@ export default function DetailPanel({
 
 	if (!entry) {
 		return (
-			<div className='rounded-2xl bg-white/95 border border-slate-100 shadow-[0_16px_36px_rgba(15,23,42,0.14)] h-full overflow-y-auto p-5'>
+			<div className='h-full overflow-y-auto rounded-xl border border-slate-100 bg-white/95 p-5 shadow-[0_16px_36px_rgba(15,23,42,0.14)]'>
 				<h2 className='text-lg font-semibold text-slate-700'>
 					请选择左侧词条或使用上方搜索
 				</h2>
@@ -51,6 +51,9 @@ export default function DetailPanel({
 	const cnDef = (entry as any).cn_def || '';
 	const enDef = (entry as any).en_def || '';
 	const sentences = (entry as any).sentences || [];
+	const extraSentences = (sentences || []).filter((sent: any) => {
+		return sent?.en && sent.en !== (entry as any).example_en;
+	});
 	// Safe access for IPA
 	const ipaUk = (entry as any).ipa_uk || (entry as any).uk_ipa || '—';
 	const ipaUs = (entry as any).ipa_us || (entry as any).us_ipa || '—';
@@ -251,12 +254,12 @@ export default function DetailPanel({
 							</span>
 						</div>
 						<div
-							className={`relative cursor-pointer flex items-end gap-4 ${shouldMaskHead ? 'mask-container' : ''
+							className={`relative flex cursor-pointer flex-wrap items-end gap-x-4 gap-y-1 ${shouldMaskHead ? 'mask-container' : ''
 								}`}
 							onClick={() => setRevealed(prev => ({ ...prev, head: true }))}
 						>
 							<h2
-								className={`text-3xl font-bold tracking-tight text-slate-900 ${reciteMode && !shouldMaskHead ? 'detail-head-highlight' : ''
+							className={`text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl ${reciteMode && !shouldMaskHead ? 'detail-head-highlight' : ''
 									}`}
 								style={{ opacity: shouldMaskHead ? 0 : 1 }}
 							>
@@ -316,12 +319,12 @@ export default function DetailPanel({
 							</section>
 						)}
 
-						<div className='mt-3 inline-flex rounded-full bg-slate-100 p-1 text-[11px] text-slate-600 font-medium'>
+						<div className='mt-3 inline-flex max-w-full overflow-x-auto rounded-full bg-slate-100 p-1 text-[11px] font-medium text-slate-600'>
 							{tabs.map(tab => (
 								<button
 									key={tab.id}
 									type='button'
-									className={`px-3 py-1 rounded-full transition-all duration-200 flex items-center gap-1.5 ${detailTab === tab.id
+									className={`flex cursor-pointer items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-300 ${detailTab === tab.id
 										? 'bg-white text-slate-900 shadow-sm font-bold'
 										: 'hover:text-slate-900 text-slate-500'
 										}`}
@@ -338,7 +341,7 @@ export default function DetailPanel({
 				</div>
 			</div>
 
-			<div className='p-4'>
+			<div className='p-3 sm:p-4'>
 				<div className='mt-2 space-y-2 text-sm'>
 					{/* Word Details Group */}
 					<div id='content' className='space-y-4 scroll-mt-40'>
@@ -394,10 +397,24 @@ export default function DetailPanel({
 									</div>
 								</div>
 								{(entry as Word).morph_note && (
-									<p className='text-xs text-slate-500 leading-relaxed bg-slate-50 p-3 rounded-lg border border-slate-100'>
-										💡 {(entry as Word).morph_note}
+									<p className='rounded-lg border border-slate-100 bg-slate-50 p-3 text-xs leading-relaxed text-slate-500'>
+										{(entry as Word).morph_note}
 									</p>
 								)}
+							</section>
+						)}
+
+						{enDef && (
+							<section className='space-y-1'>
+								<h3 className='text-md flex items-center gap-2 font-bold uppercase tracking-wider'>
+									<span className='h-1 w-1 rounded-full bg-sky-400'></span>
+									英文释义
+								</h3>
+								<div className='rounded-xl border border-sky-100 bg-sky-50/70 p-3'>
+									<p className='text-sm font-medium leading-6 text-slate-700'>
+										{reciteMode ? '—' : enDef}
+									</p>
+								</div>
 							</section>
 						)}
 
@@ -536,7 +553,7 @@ export default function DetailPanel({
 								</p>
 							)}
 						</div>
-						{(sentences || []).map((sent: any, idx: number) => (
+						{extraSentences.map((sent: any, idx: number) => (
 							<div
 								key={idx}
 								className={`relative cursor-pointer group rounded-xl p-4 bg-blue-50 hover:bg-blue-100 transition-colors border border-blue-100 ${shouldMaskSentence ? 'mask-container' : ''
