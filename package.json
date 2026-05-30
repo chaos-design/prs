@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "ipa": "node ./scripts/fill_ipa.js"
+    "ipa": "node ./scripts/fill_ipa.js",
+    "morphology": "node ./scripts/fill_morphology.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",

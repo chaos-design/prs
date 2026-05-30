@@ -55,6 +55,7 @@ function App() {
     setStudyList(words.map(w => w._idx!));
     setStudyIdx(0);
     setCurrentEntry(words[0] || phrases[0] || null);
+    setSearchResults(null);
   }, [level]);
 
   const [indexes, setIndexes] = useState<{
