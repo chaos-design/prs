@@ -1,61 +1,75 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './components/header';
 import Stats from './components/stats';
 import GlobalSearch from './components/global-search';
 import MorphologyNav from './components/morphology-nav';
 import DetailPanel from './components/detail-panel';
-import GlobalScenarios from './components/global-scenarios';
 import ShortcutGuide from './components/shortcut-guide';
 import { buildIndex } from './utils/dataUtils';
 import { speakTextEn } from './utils/speech';
-import c1WordsData from './data/c1_vocab.json';
-import b2WordsData from './data/b2_vocab.json';
-import c2WordsData from './data/c2_vocab.json';
+import { loadVocab, DEFAULT_LEVEL } from './data/vocab';
 import scenariosData from './data/scenarios.json';
 import { Word, Phrase, ScenarioMatch, SearchResult, ScenarioCategory, IndexResult } from './types';
 import { motion, AnimatePresence } from 'framer-motion';
 
-function App() {
-  const [level, setLevel] = useState('C1');
-  const navigate = useNavigate();
+// 场景例句为独立路由，按需加载，不进首屏 chunk
+const GlobalScenarios = lazy(() => import('./components/global-scenarios'));
 
-  const getWordsData = (lvl: string) => {
-    switch (lvl) {
-      case 'B2':
-        return b2WordsData;
-      case 'C2':
-        return c2WordsData;
-      case 'C1':
-      default:
-        return c1WordsData;
-    }
-  };
+function Loading({ label }: { label: string }) {
+  return (
+    <div className='flex min-h-[420px] flex-col items-center justify-center gap-3 text-slate-400'>
+      <span className='h-6 w-6 animate-spin rounded-full border-2 border-slate-300 border-t-brand-500' />
+      <span className='text-sm'>{label}</span>
+    </div>
+  );
+}
+
+function App() {
+  const [level, setLevel] = useState(DEFAULT_LEVEL);
+  const navigate = useNavigate();
 
   // Initialize data
   const [data, setData] = useState<{ words: Word[]; phrases: Phrase[] }>({ words: [], phrases: [] });
+  const [dataState, setDataState] = useState<'loading' | 'ready' | 'error'>('loading');
 
   useEffect(() => {
-    const wordsData = getWordsData(level);
-    const rawWords = (wordsData as any).words || [];
-    const rawPhrases = (wordsData as any).phrases || [];
+    let cancelled = false;
+    setDataState('loading');
 
-    const words = rawWords.map((w: any, i: number) => ({
-      ...w,
-      _type: 'word',
-      _idx: i,
-    })) as Word[];
-    const phrases = rawPhrases.map((p: any, i: number) => ({
-      ...p,
-      _type: 'phrase',
-      _idx: i,
-    })) as Phrase[];
+    loadVocab(level).then(({ default: vocab }) => {
+      // 快速切换等级时，丢弃已过期响应的结果，避免旧数据覆盖新等级。
+      if (cancelled) return;
 
-    setData({ words, phrases });
-    setStudyList(words.map(w => w._idx!));
-    setStudyIdx(0);
-    setCurrentEntry(words[0] || phrases[0] || null);
-    setSearchResults(null);
+      const rawWords = vocab.words || [];
+      const rawPhrases = vocab.phrases || [];
+
+      const words = rawWords.map((w, i) => ({
+        ...w,
+        _type: 'word',
+        _idx: i,
+      })) as Word[];
+      const phrases = rawPhrases.map((p, i) => ({
+        ...p,
+        _type: 'phrase',
+        _idx: i,
+      })) as Phrase[];
+
+      setData({ words, phrases });
+      setStudyList(words.map(w => w._idx!));
+      setStudyIdx(0);
+      setCurrentEntry(words[0] || phrases[0] || null);
+      setSearchResults(null);
+      setDataState('ready');
+    }).catch(err => {
+      if (cancelled) return;
+      console.error(`[prs] 加载 ${level} 词库失败`, err);
+      setDataState('error');
+    });
+
+    return () => {
+      cancelled = true;
+    };
   }, [level]);
 
   const [indexes, setIndexes] = useState<{
@@ -296,6 +310,7 @@ function App() {
       <main className='mx-auto w-full max-w-7xl flex-1 space-y-6 px-3 py-4 sm:px-6 sm:py-5'>
         <Routes>
           <Route path="/" element={
+            dataState === 'ready' ? (
             <div className='min-h-[680px] lg:h-[calc(100vh-118px)]'>
               <section className='grid h-full grid-cols-1 items-start gap-4 lg:grid-cols-12'>
                 {/* Left Sidebar: Search, Stats, Morphology Nav */}
@@ -379,15 +394,22 @@ function App() {
                 </div>
               </section>
             </div>
+            ) : (
+              <Loading
+                label={dataState === 'error' ? '词库加载失败，请切换等级重试' : `正在加载 ${level} 词库…`}
+              />
+            )
           } />
           
           <Route path="/scenarios" element={
-            <GlobalScenarios
-              scenarios={activeScenarios}
-              reciteMode={reciteMode}
-              accent={accent}
-              onToggleRecite={() => setReciteMode(!reciteMode)}
-            />
+            <Suspense fallback={<Loading label="正在加载场景例句…" />}>
+              <GlobalScenarios
+                scenarios={activeScenarios}
+                reciteMode={reciteMode}
+                accent={accent}
+                onToggleRecite={() => setReciteMode(!reciteMode)}
+              />
+            </Suspense>
           } />
         </Routes>
       </main>
