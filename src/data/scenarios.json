@@ -1,0 +1,2045 @@
+{
+  "categories": [
+    {
+      "id": "work_meeting",
+      "name": "工作·会议沟通",
+      "examples": [
+        {
+          "en": "Let's align on the key deliverables before the meeting ends.",
+          "zh": "在会议结束前让我们统一关键交付物。"
+        },
+        {
+          "en": "Could you clarify the timeline for the next milestone?",
+          "zh": "能否明确下一个里程碑的时间安排？"
+        },
+        {
+          "en": "I'd like to quickly walk you through today's agenda.",
+          "zh": "我想快速带大家过一下今天的议程。"
+        },
+        {
+          "en": "From my perspective, this approach is more sustainable.",
+          "zh": "从我的视角看，这种方案更可持续。"
+        },
+        {
+          "en": "Let's park this topic and come back to it later.",
+          "zh": "这个话题先暂时搁置，稍后再回来讨论。"
+        },
+        {
+          "en": "Does anyone have any concerns or questions so far?",
+          "zh": "目前为止大家有任何疑问或顾虑吗？"
+        },
+        {
+          "en": "We need a clear owner for each action item.",
+          "zh": "每一项行动点都需要明确负责人。"
+        },
+        {
+          "en": "I propose we leverage our existing resources to expedite the process.",
+          "zh": "我建议利用现有资源来加快进程。"
+        },
+        {
+          "en": "Let's touch base offline to discuss the technical specifications.",
+          "zh": "我们可以线下碰头讨论技术规格。"
+        },
+        {
+          "en": "Are we all on the same page regarding the project scope?",
+          "zh": "关于项目范围，大家的理解一致吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "work_negotiation",
+      "name": "工作·商务谈判",
+      "examples": [
+        {
+          "en": "We need to find a middle ground that satisfies both parties.",
+          "zh": "我们需要找到一个双方都能满意的折中方案。"
+        },
+        {
+          "en": "Our budget is tight, but we can offer flexibility in payment terms.",
+          "zh": "我们的预算很紧，但可以在付款条款上提供灵活性。"
+        },
+        {
+          "en": "This clause is a deal-breaker for us.",
+          "zh": "这个条款对我们来说是无法接受的（交易破坏者）。"
+        },
+        {
+          "en": "Could you elaborate on the value proposition of your service?",
+          "zh": "能否详细说明一下你们服务的价值主张？"
+        },
+        {
+          "en": "We are looking for a long-term strategic partnership.",
+          "zh": "我们正在寻找长期的战略合作伙伴关系。"
+        },
+        {
+          "en": "I'm afraid that price point is slightly above our ceiling.",
+          "zh": "恐怕那个价格点略高于我们的上限。"
+        },
+        {
+          "en": "Let's review the contract terms clause by clause.",
+          "zh": "让我们逐条审查合同条款。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "work_presentation",
+      "name": "工作·演讲汇报",
+      "examples": [
+        {
+          "en": "The following chart illustrates the growth trajectory over the last quarter.",
+          "zh": "下表展示了上个季度的增长轨迹。"
+        },
+        {
+          "en": "I'd like to draw your attention to the significant decrease in overhead costs.",
+          "zh": "我想请大家注意管理费用的显著下降。"
+        },
+        {
+          "en": "Moving on to the next slide, we can see the demographic breakdown.",
+          "zh": "进入下一张幻灯片，我们可以看到人口统计细分。"
+        },
+        {
+          "en": "To wrap up, I'd like to summarize the three key takeaways.",
+          "zh": "最后，我想总结一下三个关键结论。"
+        },
+        {
+          "en": "This strategy aligns perfectly with our core corporate values.",
+          "zh": "这一策略与我们的核心企业价值观完美契合。"
+        },
+        {
+          "en": "Let's drill down into the data to understand the root cause.",
+          "zh": "让我们深入挖掘数据以了解根本原因。"
+        },
+        {
+          "en": "I'd like to start by giving you a brief overview.",
+          "zh": "我想先给大家做一个简要概览。"
+        },
+        {
+          "en": "As you can see from this slide, sales have doubled.",
+          "zh": "正如这页所示，销售额已经翻了一番。"
+        },
+        {
+          "en": "Feel free to interrupt me if you have any questions.",
+          "zh": "如果有问题，可以随时打断我。"
+        },
+        {
+          "en": "Let me highlight three key points here.",
+          "zh": "让我在这里强调三个关键点。"
+        },
+        {
+          "en": "This chart compares our performance with last year.",
+          "zh": "这张图表对比了我们与去年的表现。"
+        },
+        {
+          "en": "I'll move on to the next part of my presentation.",
+          "zh": "我接着讲汇报的下一部分。"
+        },
+        {
+          "en": "To sum up, our strategy is working well.",
+          "zh": "总结一下，我们的策略运作得不错。"
+        },
+        {
+          "en": "Thank you for listening. I'm happy to take any questions.",
+          "zh": "感谢大家聆听，我很乐意回答问题。"
+        },
+        {
+          "en": "Could you zoom in on that figure?",
+          "zh": "可以把那个数字放大一点吗？"
+        },
+        {
+          "en": "The purpose of today's presentation is to share our findings.",
+          "zh": "今天汇报的目的是和大家分享我们的发现。"
+        },
+        {
+          "en": "I'll send the slides to you after the meeting.",
+          "zh": "会后我会把 PPT 发给大家。"
+        },
+        {
+          "en": "This part might be a bit technical, but I'll keep it simple.",
+          "zh": "这一部分可能有点技术性，但我会尽量讲得简单。"
+        },
+        {
+          "en": "Here's a quick summary of what we've covered so far.",
+          "zh": "下面快速总结一下我们刚才讲过的内容。"
+        },
+        {
+          "en": "Due to time limits, I'll skip this section.",
+          "zh": "由于时间关系，这一部分我就略过了。"
+        },
+        {
+          "en": "Can everyone at the back see the screen clearly?",
+          "zh": "后排的同事都能看清屏幕吗？"
+        },
+        {
+          "en": "Let me give you a concrete example.",
+          "zh": "让我给大家举一个具体的例子。"
+        },
+        {
+          "en": "We'll have a short Q&A session at the end.",
+          "zh": "最后我们会有一个简短的问答环节。"
+        },
+        {
+          "en": "Please keep your questions brief so we can cover more.",
+          "zh": "提问时尽量简短，这样我们可以多回答几位。"
+        },
+        {
+          "en": "I'll send out the detailed report after this presentation.",
+          "zh": "汇报结束后我会发出详细报告。"
+        },
+        {
+          "en": "If anything is unclear, feel free to reach out to me later.",
+          "zh": "如果还有不清楚的地方，之后可以随时联系我。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "work_email",
+      "name": "工作·邮件写作",
+      "examples": [
+        {
+          "en": "Please find the attached report for your reference.",
+          "zh": "请查收随附的报告以供参考。"
+        },
+        {
+          "en": "I'm writing to follow up on our conversation yesterday.",
+          "zh": "写这封邮件是想跟进一下我们昨天的沟通。"
+        },
+        {
+          "en": "Could you please confirm whether the schedule works for you?",
+          "zh": "能否请你确认一下这个时间安排是否合适？"
+        },
+        {
+          "en": "Sorry for the late reply, and thank you for your patience.",
+          "zh": "抱歉回复较晚，感谢你的耐心等待。"
+        },
+        {
+          "en": "If you have any questions, feel free to reach out.",
+          "zh": "如有任何问题，欢迎随时联系我。"
+        },
+        {
+          "en": "I'd appreciate it if you could share your feedback by Friday.",
+          "zh": "如果你能在周五前反馈意见，我将不胜感激。"
+        },
+        {
+          "en": "Please keep me in the loop regarding any updates.",
+          "zh": "有任何更新请随时告知我。"
+        },
+        {
+          "en": "I am currently out of office with limited access to email.",
+          "zh": "我目前不在办公室，无法经常查看邮件。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_shopping",
+      "name": "生活·购物与支付",
+      "examples": [
+        {
+          "en": "Do you have this in a different size?",
+          "zh": "这款有其他尺码吗？"
+        },
+        {
+          "en": "Is this item on sale today?",
+          "zh": "这件商品今天有打折吗？"
+        },
+        {
+          "en": "Could I try this on in the fitting room?",
+          "zh": "我可以在试衣间试穿一下吗？"
+        },
+        {
+          "en": "Can I pay by card or mobile payment?",
+          "zh": "可以刷卡或使用手机支付吗？"
+        },
+        {
+          "en": "Could you please give me a receipt?",
+          "zh": "可以给我一张收据吗？"
+        },
+        {
+          "en": "Is there a return policy for this product?",
+          "zh": "这件商品有退货政策吗？"
+        },
+        {
+          "en": "Does this warranty cover accidental damage?",
+          "zh": "这个保修包含意外损坏吗？"
+        },
+        {
+          "en": "I'd like to redeem my loyalty points for this purchase.",
+          "zh": "我想用我的积分兑换这次购买。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_travel",
+      "name": "生活·旅行与出行",
+      "examples": [
+        {
+          "en": "What time does the next train to the airport depart?",
+          "zh": "下一班开往机场的列车几点发车？"
+        },
+        {
+          "en": "Could you recommend some places worth visiting nearby?",
+          "zh": "附近有值得一去的地方可以推荐吗？"
+        },
+        {
+          "en": "Is this the right platform for the train to London?",
+          "zh": "这里是去伦敦的正确站台吗？"
+        },
+        {
+          "en": "How long does it take to get to the city center by taxi?",
+          "zh": "打车到市中心大概要多久？"
+        },
+        {
+          "en": "I'd like to check in for my flight to New York.",
+          "zh": "我想办理去纽约航班的值机手续。"
+        },
+        {
+          "en": "Is breakfast included in the room rate?",
+          "zh": "房费里包含早餐吗？"
+        },
+        {
+          "en": "I have a reservation under the name of Smith.",
+          "zh": "我用史密斯的名字预订了房间。"
+        },
+        {
+          "en": "Could you please arrange a wake-up call for 6 AM?",
+          "zh": "能否安排早上6点的叫醒服务？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_medical",
+      "name": "生活·医疗健康",
+      "examples": [
+        {
+          "en": "I have a persistent headache and some nausea.",
+          "zh": "我持续头痛并且有点恶心。"
+        },
+        {
+          "en": "Do I need a prescription for this medication?",
+          "zh": "这种药需要处方吗？"
+        },
+        {
+          "en": "Are there any potential side effects I should be aware of?",
+          "zh": "有什么我需要注意的潜在副作用吗？"
+        },
+        {
+          "en": "I'd like to schedule an appointment with a specialist.",
+          "zh": "我想预约一位专科医生。"
+        },
+        {
+          "en": "Does my insurance cover this procedure?",
+          "zh": "我的保险包含这个手术吗？"
+        },
+        {
+          "en": "You need to fast for 12 hours before the blood test.",
+          "zh": "验血前你需要禁食12小时。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_restaurant",
+      "name": "生活·餐厅与点单",
+      "examples": [
+        {
+          "en": "Could I see the menu, please?",
+          "zh": "可以给我看一下菜单吗？"
+        },
+        {
+          "en": "Do you have any vegetarian options?",
+          "zh": "有素食选择吗？"
+        },
+        {
+          "en": "I'd like to order this dish without peanuts.",
+          "zh": "我想点这道菜，但不要花生。"
+        },
+        {
+          "en": "Could you recommend something not too spicy?",
+          "zh": "可以推荐一款不太辣的菜吗？"
+        },
+        {
+          "en": "The food is great, could we have the bill, please?",
+          "zh": "菜很好吃，可以请你结账吗？"
+        },
+        {
+          "en": "Can we split the bill into two payments?",
+          "zh": "可以把账单分成两份结吗？"
+        },
+        {
+          "en": "This steak is undercooked; I asked for medium-well.",
+          "zh": "这块牛排没熟；我要的是七分熟。"
+        },
+        {
+          "en": "Could we have a table by the window?",
+          "zh": "我们可以要一张靠窗的桌子吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "campus_exam",
+      "name": "校园·考试与作业",
+      "examples": [
+        {
+          "en": "When is the deadline for this assignment?",
+          "zh": "这次作业的截止日期是什么时候？"
+        },
+        {
+          "en": "Could you explain the grading criteria in more detail?",
+          "zh": "可以更详细地说明一下评分标准吗？"
+        },
+        {
+          "en": "I'm preparing for the final exam this weekend.",
+          "zh": "我这个周末在准备期末考试。"
+        },
+        {
+          "en": "Is this topic optional or mandatory?",
+          "zh": "这个题目是可选的还是必选的？"
+        },
+        {
+          "en": "Can I submit my homework online?",
+          "zh": "我可以在线提交作业吗？"
+        },
+        {
+          "en": "Will there be any bonus points for participation?",
+          "zh": "课堂参与会有加分吗？"
+        },
+        {
+          "en": "I need to request an extension due to a family emergency.",
+          "zh": "因为家里有急事，我需要申请延期。"
+        },
+        {
+          "en": "The professor's lecture on quantum mechanics was fascinating.",
+          "zh": "教授关于量子力学的讲座非常迷人。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "campus_research",
+      "name": "校园·学术研究",
+      "examples": [
+        {
+          "en": "Your hypothesis needs to be supported by empirical data.",
+          "zh": "你的假设需要实证数据的支持。"
+        },
+        {
+          "en": "Make sure to cite all your sources correctly to avoid plagiarism.",
+          "zh": "确保正确引用所有来源以避免抄袭。"
+        },
+        {
+          "en": "The methodology section should be as detailed as possible.",
+          "zh": "方法论部分应尽可能详细。"
+        },
+        {
+          "en": "I'm conducting a qualitative analysis of the interview transcripts.",
+          "zh": "我正在对访谈记录进行定性分析。"
+        },
+        {
+          "en": "This paper challenges the conventional wisdom in the field.",
+          "zh": "这篇论文挑战了该领域的传统观点。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "social_smalltalk",
+      "name": "社交·邀约与寒暄",
+      "examples": [
+        {
+          "en": "It's been a while. How have you been?",
+          "zh": "好久不见，最近怎么样？"
+        },
+        {
+          "en": "Would you like to grab a coffee sometime this week?",
+          "zh": "这周找个时间一起喝杯咖啡好吗？"
+        },
+        {
+          "en": "That sounds great. Let me check my schedule.",
+          "zh": "听起来不错，我先看一下自己的时间安排。"
+        },
+        {
+          "en": "It was really nice catching up with you.",
+          "zh": "和你聊聊天真的很开心。"
+        },
+        {
+          "en": "Let's keep in touch and plan something soon.",
+          "zh": "保持联系，找个时间再约一次。"
+        },
+        {
+          "en": "Thank you for inviting me, I had a wonderful time.",
+          "zh": "谢谢你的邀请，我度过了一段很开心的时光。"
+        },
+        {
+          "en": "What do you do for fun outside of work?",
+          "zh": "你工作之余有什么娱乐活动？"
+        },
+        {
+          "en": "I've heard so much about you from Sarah.",
+          "zh": "我从萨拉那里听说了好多关于你的事。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "social_discussion",
+      "name": "社交·观点讨论",
+      "examples": [
+        {
+          "en": "I beg to differ on that particular point.",
+          "zh": "在那一点上我恕难苟同。"
+        },
+        {
+          "en": "That's a valid argument, but have you considered the alternatives?",
+          "zh": "那是个合理的论点，但你考虑过替代方案吗？"
+        },
+        {
+          "en": "I'm inclined to agree with the former opinion.",
+          "zh": "我倾向于同意前一种观点。"
+        },
+        {
+          "en": "It's a controversial topic with strong arguments on both sides.",
+          "zh": "这是一个争议性话题，双方都有强有力的论据。"
+        },
+        {
+          "en": "Personally, I believe that technology does more good than harm.",
+          "zh": "我个人认为科技利大于弊。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "dialogue_shopping",
+      "name": "对话·购物咨询",
+      "examples": [
+        {
+          "en": "A: Excuse me, do you have this shirt in a medium?",
+          "zh": "A: 打扰一下，这件衬衫有中号的吗？"
+        },
+        {
+          "en": "B: Let me check the stockroom for you. Just a moment.",
+          "zh": "B: 我去库房帮您查一下，请稍等。"
+        },
+        {
+          "en": "A: Thanks. Also, does it come in any other colors?",
+          "zh": "A: 谢谢。另外，这还有其他颜色的吗？"
+        },
+        {
+          "en": "B: Yes, we also have it in navy blue and white.",
+          "zh": "B: 是的，我们还有藏青色和白色的。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "dialogue_restaurant",
+      "name": "对话·餐厅点餐",
+      "examples": [
+        {
+          "en": "A: Good evening. Can we have a table for two, please?",
+          "zh": "A: 晚上好。请给我们一张两人的桌子好吗？"
+        },
+        {
+          "en": "B: Certainly. Would you prefer indoors or outdoors?",
+          "zh": "B: 没问题。您想坐室内还是室外？"
+        },
+        {
+          "en": "A: Indoors would be great. It's a bit chilly tonight.",
+          "zh": "A: 室内就好。今晚有点凉。"
+        },
+        {
+          "en": "B: Right this way. Here are your menus.",
+          "zh": "B: 这边请。这是菜单。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_housing",
+      "name": "生活·住房与租赁",
+      "examples": [
+        {
+          "en": "I'm looking for a two-bedroom apartment near the city center.",
+          "zh": "我在找一套市中心附近的两居室公寓。"
+        },
+        {
+          "en": "Does the rent include utilities like water and electricity?",
+          "zh": "房租包含水电费吗？"
+        },
+        {
+          "en": "When is the lease up for renewal?",
+          "zh": "租约什么时候到期续签？"
+        },
+        {
+          "en": "The landlord requires a security deposit equivalent to one month's rent.",
+          "zh": "房东要求相当于一个月房租的押金。"
+        },
+        {
+          "en": "We need to report a plumbing issue to the property manager.",
+          "zh": "我们需要向物业经理报告水管问题。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_transport",
+      "name": "生活·交通通勤",
+      "examples": [
+        {
+          "en": "The subway is always packed during rush hour.",
+          "zh": "高峰时段地铁总是很拥挤。"
+        },
+        {
+          "en": "I missed my connecting flight due to a delay.",
+          "zh": "因为延误，我错过了转机航班。"
+        },
+        {
+          "en": "Is there a direct bus to the train station from here?",
+          "zh": "这里有直达火车站的公交车吗？"
+        },
+        {
+          "en": "I usually commute by bike when the weather is nice.",
+          "zh": "天气好的时候我通常骑自行车通勤。"
+        },
+        {
+          "en": "Traffic congestion is a major issue in this city.",
+          "zh": "交通拥堵是这座城市的一个主要问题。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_food_dining",
+      "name": "生活·餐饮与点单（综合）",
+      "examples": [
+        {
+          "en": "Could I have a glass of tap water, please?",
+          "zh": "可以给我一杯自来水吗？"
+        },
+        {
+          "en": "Is this dish spicy?",
+          "zh": "这道菜辣吗？"
+        },
+        {
+          "en": "I'd like the same as last time, please.",
+          "zh": "我想点和上次一样的。"
+        },
+        {
+          "en": "Could we have an extra plate and some napkins?",
+          "zh": "可以再给我们一个盘子和一些纸巾吗？"
+        },
+        {
+          "en": "Does this come with rice or bread?",
+          "zh": "这道菜配米饭还是面包？"
+        },
+        {
+          "en": "I'm allergic to seafood, is there anything you would recommend?",
+          "zh": "我对海鲜过敏，有什么可以推荐的吗？"
+        },
+        {
+          "en": "Could you make it a bit less salty?",
+          "zh": "可以做得稍微淡一点吗？"
+        },
+        {
+          "en": "We'd like to share this dessert.",
+          "zh": "我们想一起分享这份甜点。"
+        },
+        {
+          "en": "Is service charge included in the bill?",
+          "zh": "账单里包含服务费吗？"
+        },
+        {
+          "en": "Can I get this to go, please?",
+          "zh": "这份可以打包带走吗？"
+        },
+        {
+          "en": "Do you have any local specialties?",
+          "zh": "你们有本地特色菜吗？"
+        },
+        {
+          "en": "Could you warm this up a little bit?",
+          "zh": "可以帮我稍微加热一下吗？"
+        },
+        {
+          "en": "The soup is a bit too hot for me.",
+          "zh": "这碗汤对我来说有点太烫了。"
+        },
+        {
+          "en": "Can we move to that table by the window?",
+          "zh": "我们可以换到靠窗那张桌子吗？"
+        },
+        {
+          "en": "Is it okay if we pay separately?",
+          "zh": "我们可以分开结账吗？"
+        },
+        {
+          "en": "Do you have any sugar-free drinks?",
+          "zh": "有无糖饮料吗？"
+        },
+        {
+          "en": "I'd like a medium-rare steak, please.",
+          "zh": "我想要一份三分熟的牛排。"
+        },
+        {
+          "en": "Could you pack the leftovers for us?",
+          "zh": "可以帮我们把剩下的打包吗？"
+        },
+        {
+          "en": "Is there a kids' menu?",
+          "zh": "有儿童菜单吗？"
+        },
+        {
+          "en": "How long will it take for the food to be ready?",
+          "zh": "大概要多久菜才能做好？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_clothing_fashion",
+      "name": "生活·衣服购物与尺码",
+      "examples": [
+        {
+          "en": "Do you have this T-shirt in size medium?",
+          "zh": "这款 T 恤有中码吗？"
+        },
+        {
+          "en": "I'm looking for a formal dress for a wedding.",
+          "zh": "我在找一条参加婚礼的正式连衣裙。"
+        },
+        {
+          "en": "Could you show me something in a darker color?",
+          "zh": "可以给我看看颜色深一点的吗？"
+        },
+        {
+          "en": "The sleeves are a bit too long for me.",
+          "zh": "这件衣服的袖子对我来说有点太长了。"
+        },
+        {
+          "en": "Is this jacket machine-washable?",
+          "zh": "这件外套可以机洗吗？"
+        },
+        {
+          "en": "Do these shoes run true to size?",
+          "zh": "这双鞋的尺码标准吗？"
+        },
+        {
+          "en": "Could I try a larger size, please?",
+          "zh": "可以给我试一下大一号的吗？"
+        },
+        {
+          "en": "Is there a changing room available?",
+          "zh": "有空的试衣间吗？"
+        },
+        {
+          "en": "This fabric feels a bit too thin.",
+          "zh": "这种面料摸起来有点太薄了。"
+        },
+        {
+          "en": "Do you have this in a different pattern?",
+          "zh": "这款有别的花纹吗？"
+        },
+        {
+          "en": "I'm afraid this color doesn't suit me.",
+          "zh": "我怕这个颜色不太适合我。"
+        },
+        {
+          "en": "Is there any discount if I buy two of these?",
+          "zh": "如果我买两件有折扣吗？"
+        },
+        {
+          "en": "Could you help me measure my waist?",
+          "zh": "可以帮我量一下腰围吗？"
+        },
+        {
+          "en": "I prefer something more casual.",
+          "zh": "我更想要休闲一点的款式。"
+        },
+        {
+          "en": "Do you offer alteration services?",
+          "zh": "你们提供改衣服的服务吗？"
+        },
+        {
+          "en": "The jeans are a bit tight around the waist.",
+          "zh": "这条牛仔裤腰部有点紧。"
+        },
+        {
+          "en": "Could I see this shirt in a smaller size?",
+          "zh": "这件衬衫有小一号的吗？"
+        },
+        {
+          "en": "Is this material wrinkle-free?",
+          "zh": "这种面料容易起皱吗？"
+        },
+        {
+          "en": "I'm just browsing, thanks.",
+          "zh": "我先随便看看，谢谢。"
+        },
+        {
+          "en": "Does this come with a matching belt?",
+          "zh": "这件衣服有配套的腰带吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_housing_rent",
+      "name": "生活·租房与居家",
+      "examples": [
+        {
+          "en": "Is the apartment furnished or unfurnished?",
+          "zh": "这套公寓是带家具还是不带家具？"
+        },
+        {
+          "en": "How much is the monthly rent, including utilities?",
+          "zh": "连同水电网，月租大概是多少？"
+        },
+        {
+          "en": "Is there a deposit, and how many months do I need to pay?",
+          "zh": "需要押金吗？一般要交几个月？"
+        },
+        {
+          "en": "Can I see the contract before I make a decision?",
+          "zh": "做决定之前我可以先看一下合同吗？"
+        },
+        {
+          "en": "Is heating included in the rent?",
+          "zh": "暖气费包含在房租里吗？"
+        },
+        {
+          "en": "How long is the minimum rental period?",
+          "zh": "最短租期是多长？"
+        },
+        {
+          "en": "Are pets allowed in this building?",
+          "zh": "这栋楼允许养宠物吗？"
+        },
+        {
+          "en": "Who should I contact if something needs repairing?",
+          "zh": "如果有什么需要维修，我应该联系谁？"
+        },
+        {
+          "en": "Is there a supermarket within walking distance?",
+          "zh": "步行范围内有超市吗？"
+        },
+        {
+          "en": "How safe is the neighborhood at night?",
+          "zh": "这个社区晚上安全吗？"
+        },
+        {
+          "en": "Does the apartment get enough natural light?",
+          "zh": "这套房子的采光好吗？"
+        },
+        {
+          "en": "Is there central air conditioning or just a fan?",
+          "zh": "有中央空调还是只有电扇？"
+        },
+        {
+          "en": "Can I repaint the walls if I move in?",
+          "zh": "如果我入住，可以重新刷墙吗？"
+        },
+        {
+          "en": "Is there a cleaning service available?",
+          "zh": "有提供家政清洁服务吗？"
+        },
+        {
+          "en": "How often is the garbage collected?",
+          "zh": "垃圾多久清运一次？"
+        },
+        {
+          "en": "Are there any additional management fees?",
+          "zh": "还有额外的物业管理费吗？"
+        },
+        {
+          "en": "Where can I pick up my parcels?",
+          "zh": "快递一般在哪儿取？"
+        },
+        {
+          "en": "Is the internet connection stable here?",
+          "zh": "这里的网络稳定吗？"
+        },
+        {
+          "en": "Do I need to register my address with the local authorities?",
+          "zh": "我需要在当地登记住址吗？"
+        },
+        {
+          "en": "Can I arrange a second viewing this weekend?",
+          "zh": "这个周末我可以再来看一次房吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_transport_commute",
+      "name": "生活·通勤与公共交通",
+      "examples": [
+        {
+          "en": "Which bus should I take to get to the city center?",
+          "zh": "去市中心我应该坐哪路公交？"
+        },
+        {
+          "en": "How many stops are there before we get to the station?",
+          "zh": "到火车站之前还有几站？"
+        },
+        {
+          "en": "Does this subway line run all night?",
+          "zh": "这条地铁线路通宵运营吗？"
+        },
+        {
+          "en": "Excuse me, is this seat taken?",
+          "zh": "不好意思，这个座位有人吗？"
+        },
+        {
+          "en": "Could you please drop me off at the next corner?",
+          "zh": "可以在下一个路口让我下车吗？"
+        },
+        {
+          "en": "How long does it usually take during rush hour?",
+          "zh": "高峰期一般要多久？"
+        },
+        {
+          "en": "Is there a discount card for frequent commuters?",
+          "zh": "经常通勤的人有优惠卡吗？"
+        },
+        {
+          "en": "Where can I top up my transport card?",
+          "zh": "我在哪里可以给交通卡充值？"
+        },
+        {
+          "en": "Does this train go directly to the airport?",
+          "zh": "这趟火车是直达机场的吗？"
+        },
+        {
+          "en": "The bus is running late again today.",
+          "zh": "今天公交车又晚点了。"
+        },
+        {
+          "en": "Could you call a taxi for me, please?",
+          "zh": "可以帮我叫一辆出租车吗？"
+        },
+        {
+          "en": "I'll get off at the next stop.",
+          "zh": "我在下一站下车。"
+        },
+        {
+          "en": "Is there a bike lane along this road?",
+          "zh": "这条路旁边有自行车道吗？"
+        },
+        {
+          "en": "How much is the fare to the airport?",
+          "zh": "到机场的车费大概多少？"
+        },
+        {
+          "en": "Could you open the door, please?",
+          "zh": "可以帮我开一下门吗？"
+        },
+        {
+          "en": "The train was so crowded that I couldn't find a seat.",
+          "zh": "火车太挤了，我都找不到座位。"
+        },
+        {
+          "en": "I missed my bus and had to wait another twenty minutes.",
+          "zh": "我错过了那班车，只好又等了二十分钟。"
+        },
+        {
+          "en": "Do I need to validate my ticket before getting on?",
+          "zh": "上车之前需要检票吗？"
+        },
+        {
+          "en": "Is this the right direction for downtown?",
+          "zh": "这是往市中心的方向吗？"
+        },
+        {
+          "en": "I'll share my live location with you on the way.",
+          "zh": "路上我把实时位置发给你。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_travel_booking",
+      "name": "生活·订票与酒店预订",
+      "examples": [
+        {
+          "en": "I'd like to book a round-trip ticket to Paris.",
+          "zh": "我想订一张去巴黎的往返机票。"
+        },
+        {
+          "en": "Is it possible to change the travel dates without extra charge?",
+          "zh": "可以免费更改出行日期吗？"
+        },
+        {
+          "en": "Does this hotel offer free cancellation?",
+          "zh": "这家酒店支持免费取消吗？"
+        },
+        {
+          "en": "I'd like a room with a double bed and a city view.",
+          "zh": "我想要一间带大床和城市景观的房间。"
+        },
+        {
+          "en": "Is breakfast included in this rate?",
+          "zh": "这个价格包含早餐吗？"
+        },
+        {
+          "en": "Can I check in earlier than 3 p.m.?",
+          "zh": "我可以在下午三点之前办理入住吗？"
+        },
+        {
+          "en": "I'd like to confirm my reservation for tomorrow night.",
+          "zh": "我想确认一下明天晚上的预订。"
+        },
+        {
+          "en": "Is there an airport shuttle service?",
+          "zh": "有机场接驳车服务吗？"
+        },
+        {
+          "en": "Could you recommend any day trips from here?",
+          "zh": "你能推荐从这里出发的一日游吗？"
+        },
+        {
+          "en": "Is late check-out available on Sunday?",
+          "zh": "周日可以延迟退房吗？"
+        },
+        {
+          "en": "Can I change my seat to a window seat?",
+          "zh": "我可以换到靠窗的座位吗？"
+        },
+        {
+          "en": "How much is the fee for extra baggage?",
+          "zh": "额外行李的费用是多少？"
+        },
+        {
+          "en": "I need a visa invitation letter from the hotel.",
+          "zh": "我需要酒店提供签证邀请函。"
+        },
+        {
+          "en": "Is it a direct flight or is there a transfer?",
+          "zh": "这是直飞还是中转航班？"
+        },
+        {
+          "en": "Could you send me the booking confirmation by email?",
+          "zh": "可以把预订确认发到我的邮箱吗？"
+        },
+        {
+          "en": "Is there an option to upgrade the room on arrival?",
+          "zh": "到店时可以申请升级房型吗？"
+        },
+        {
+          "en": "I'd like to request a quiet room away from the elevator.",
+          "zh": "我想要一间远离电梯的安静房间。"
+        },
+        {
+          "en": "Do I have to pay in advance or upon arrival?",
+          "zh": "需要提前付款还是到店付款？"
+        },
+        {
+          "en": "How can I change the name on the reservation?",
+          "zh": "我该如何更改预订上的姓名？"
+        },
+        {
+          "en": "Is travel insurance included in the package?",
+          "zh": "套餐中包含旅行保险吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_health_doctor",
+      "name": "生活·看病与药店",
+      "examples": [
+        {
+          "en": "I'd like to make an appointment with a general practitioner.",
+          "zh": "我想预约一位全科医生。"
+        },
+        {
+          "en": "I've had a sore throat for three days.",
+          "zh": "我喉咙痛已经三天了。"
+        },
+        {
+          "en": "Do I need to fast before the blood test?",
+          "zh": "做血液检查前需要空腹吗？"
+        },
+        {
+          "en": "Are there any side effects I should be aware of?",
+          "zh": "有什么副作用是我需要注意的吗？"
+        },
+        {
+          "en": "How often should I take this medicine?",
+          "zh": "这种药我应该多久吃一次？"
+        },
+        {
+          "en": "Could you write the instructions down for me?",
+          "zh": "可以把用药说明写给我吗？"
+        },
+        {
+          "en": "Do you have anything for a mild headache?",
+          "zh": "有治疗轻微头痛的药吗？"
+        },
+        {
+          "en": "I'm allergic to penicillin.",
+          "zh": "我对青霉素过敏。"
+        },
+        {
+          "en": "Is this prescription covered by insurance?",
+          "zh": "这张处方药可以报销吗？"
+        },
+        {
+          "en": "I feel dizzy when I stand up quickly.",
+          "zh": "我一站起来就觉得头晕。"
+        },
+        {
+          "en": "My child has a fever and a cough.",
+          "zh": "我孩子发烧并且咳嗽。"
+        },
+        {
+          "en": "Do I need to see a specialist?",
+          "zh": "我需要看专科医生吗？"
+        },
+        {
+          "en": "Could you recommend an over-the-counter painkiller?",
+          "zh": "能推荐一种非处方的止痛药吗？"
+        },
+        {
+          "en": "Should I avoid any foods while taking this?",
+          "zh": "吃这种药的时候有需要忌口的食物吗？"
+        },
+        {
+          "en": "How long will it take to recover?",
+          "zh": "大概要多久才能恢复？"
+        },
+        {
+          "en": "Is there a pharmacy nearby that's open late?",
+          "zh": "附近有营业到很晚的药店吗？"
+        },
+        {
+          "en": "I'd like to get a copy of my medical record.",
+          "zh": "我想要一份我的病历复印件。"
+        },
+        {
+          "en": "Do I need to come back for a follow-up visit?",
+          "zh": "我需要回来复诊吗？"
+        },
+        {
+          "en": "Could you give me a sick note for my employer?",
+          "zh": "可以给我开一张病假条吗？"
+        },
+        {
+          "en": "Please let me know if the pain gets worse.",
+          "zh": "如果疼痛加剧，请及时告诉我。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "finance_banking",
+      "name": "金融·银行与支付",
+      "examples": [
+        {
+          "en": "I'd like to open a savings account.",
+          "zh": "我想开一个储蓄账户。"
+        },
+        {
+          "en": "What documents do I need to bring to open an account?",
+          "zh": "开账户需要带哪些证件？"
+        },
+        {
+          "en": "Could you help me reset my online banking password?",
+          "zh": "可以帮我重置网上银行密码吗？"
+        },
+        {
+          "en": "I'd like to transfer money to this account.",
+          "zh": "我想把钱转到这个账户。"
+        },
+        {
+          "en": "Is there a fee for international transfers?",
+          "zh": "跨境转账需要手续费吗？"
+        },
+        {
+          "en": "What is the current exchange rate for US dollars?",
+          "zh": "现在美元的汇率是多少？"
+        },
+        {
+          "en": "Could you increase my credit card limit?",
+          "zh": "可以提高我的信用卡额度吗？"
+        },
+        {
+          "en": "I'd like to report a lost card.",
+          "zh": "我想挂失一张银行卡。"
+        },
+        {
+          "en": "Is contactless payment available with this card?",
+          "zh": "这张卡可以刷卡免密或闪付吗？"
+        },
+        {
+          "en": "When will the transfer arrive in the other account?",
+          "zh": "这笔转账什么时候能到账？"
+        },
+        {
+          "en": "Could you print out my recent transaction history?",
+          "zh": "可以帮我打印最近的流水记录吗？"
+        },
+        {
+          "en": "What is the minimum balance required for this account?",
+          "zh": "这个账户有最低余额要求吗？"
+        },
+        {
+          "en": "Can I set up an automatic payment for my rent?",
+          "zh": "我可以设置房租自动转账吗？"
+        },
+        {
+          "en": "I'd like to change my registered phone number.",
+          "zh": "我想修改绑定的手机号码。"
+        },
+        {
+          "en": "Is my deposit protected by any insurance scheme?",
+          "zh": "我的存款受存款保险保护吗？"
+        },
+        {
+          "en": "Do you offer any student discounts or accounts?",
+          "zh": "你们有面向学生的优惠或专用账户吗？"
+        },
+        {
+          "en": "Could you explain these bank charges to me?",
+          "zh": "可以给我解释一下这些银行收费吗？"
+        },
+        {
+          "en": "I need a stamped bank statement for my visa application.",
+          "zh": "我需要一份盖章的银行流水用于签证。"
+        },
+        {
+          "en": "What should I do if I suspect fraud on my account?",
+          "zh": "如果我怀疑账户被盗刷应该怎么办？"
+        },
+        {
+          "en": "Is there a daily limit on ATM withdrawals?",
+          "zh": "每天取现金有额度限制吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "shopping_offline",
+      "name": "购物·线下门店与退换货",
+      "examples": [
+        {
+          "en": "Do you offer a refund if the product is faulty?",
+          "zh": "如果商品有问题，可以退款吗？"
+        },
+        {
+          "en": "Could I exchange this for a different color?",
+          "zh": "我可以把这个换成不同颜色的吗？"
+        },
+        {
+          "en": "How many days do I have to return this item?",
+          "zh": "这件商品多少天之内可以退货？"
+        },
+        {
+          "en": "I think I've been charged twice by mistake.",
+          "zh": "我好像被重复扣费了。"
+        },
+        {
+          "en": "Could you scan the barcode to check the price?",
+          "zh": "可以扫一下条形码确认价格吗？"
+        },
+        {
+          "en": "Is this the final price, or is there any promotion today?",
+          "zh": "这是最终价格吗？今天有活动吗？"
+        },
+        {
+          "en": "The item was damaged when I opened the box.",
+          "zh": "我打开盒子时发现商品已经损坏了。"
+        },
+        {
+          "en": "I'd like to speak to the store manager, please.",
+          "zh": "我想找店长沟通一下。"
+        },
+        {
+          "en": "Could you gift-wrap this for me?",
+          "zh": "可以帮我把这个包装成礼物吗？"
+        },
+        {
+          "en": "Is there a fitting room on this floor?",
+          "zh": "这一层有试衣间吗？"
+        },
+        {
+          "en": "Can I reserve this item and pick it up tomorrow?",
+          "zh": "我可以先预留这件商品，明天来取吗？"
+        },
+        {
+          "en": "Do you price-match with other stores?",
+          "zh": "你们会和其他店铺比价吗？"
+        },
+        {
+          "en": "I'd like to pay in cash, please.",
+          "zh": "我想用现金付款。"
+        },
+        {
+          "en": "Where can I get a shopping bag?",
+          "zh": "我在哪里可以拿购物袋？"
+        },
+        {
+          "en": "The shoes squeak when I walk.",
+          "zh": "这双鞋走路时会发出吱吱声。"
+        },
+        {
+          "en": "I forgot to use my membership card just now.",
+          "zh": "我刚刚忘记刷会员卡了。"
+        },
+        {
+          "en": "Can you reprint the receipt for me?",
+          "zh": "可以帮我重新打印一张小票吗？"
+        },
+        {
+          "en": "Is there a discount for buying in bulk?",
+          "zh": "批量购买有优惠吗？"
+        },
+        {
+          "en": "Where is the customer service desk?",
+          "zh": "客服服务台在哪里？"
+        },
+        {
+          "en": "Could you check if this is available in another branch?",
+          "zh": "可以帮我查一下其他门店是否有货吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "shopping_online",
+      "name": "购物·网购与客服",
+      "examples": [
+        {
+          "en": "My parcel hasn't arrived yet, could you check the status?",
+          "zh": "我的包裹还没到，可以帮我查一下物流状态吗？"
+        },
+        {
+          "en": "The item I received is different from what I ordered.",
+          "zh": "我收到的商品和我下单的不一样。"
+        },
+        {
+          "en": "I'd like to request a return and refund.",
+          "zh": "我想申请退货退款。"
+        },
+        {
+          "en": "Could you send me the tracking number?",
+          "zh": "可以把快递单号发给我吗？"
+        },
+        {
+          "en": "Is there a warranty for this electronic device?",
+          "zh": "这款电子产品有保修吗？"
+        },
+        {
+          "en": "I entered the wrong address by mistake.",
+          "zh": "我不小心填错了地址。"
+        },
+        {
+          "en": "Can I change the delivery time to this evening?",
+          "zh": "可以把送货时间改到今天晚上吗？"
+        },
+        {
+          "en": "The discount code doesn't seem to work.",
+          "zh": "折扣码好像用不了。"
+        },
+        {
+          "en": "Is cash on delivery available for this order?",
+          "zh": "这笔订单可以货到付款吗？"
+        },
+        {
+          "en": "How long will it take to process the refund?",
+          "zh": "退款大概多久能到账？"
+        },
+        {
+          "en": "Could you extend the payment deadline?",
+          "zh": "可以延长一下付款期限吗？"
+        },
+        {
+          "en": "I only received part of my order.",
+          "zh": "我只收到订单的一部分。"
+        },
+        {
+          "en": "Is there a size chart I can refer to?",
+          "zh": "有可以参考的尺码表吗？"
+        },
+        {
+          "en": "Can I leave a note for the courier?",
+          "zh": "我可以给快递员留言吗？"
+        },
+        {
+          "en": "I'd like to change the color before it ships.",
+          "zh": "发货前我想改一下颜色。"
+        },
+        {
+          "en": "The package was left at the wrong building.",
+          "zh": "快递被放到了错误的楼栋。"
+        },
+        {
+          "en": "Could you resend the invoice to my email?",
+          "zh": "可以把发票重新发到我的邮箱吗？"
+        },
+        {
+          "en": "Is there a customer hotline I can call?",
+          "zh": "有可以拨打的客服热线吗？"
+        },
+        {
+          "en": "The product page doesn't mention the material.",
+          "zh": "商品详情页没有写材质。"
+        },
+        {
+          "en": "Can I leave a review after I receive the product?",
+          "zh": "收到货之后我可以评价吗？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_utilities",
+      "name": "生活·水电网与维修",
+      "examples": [
+        {
+          "en": "The Wi-Fi keeps dropping, could someone check it?",
+          "zh": "Wi-Fi 总是断线，可以派人来看一下吗？"
+        },
+        {
+          "en": "There's a water leak under the sink.",
+          "zh": "水槽下面有漏水。"
+        },
+        {
+          "en": "The light in the hallway doesn't work.",
+          "zh": "走廊的灯坏了。"
+        },
+        {
+          "en": "When will the electrician be available?",
+          "zh": "电工什么时候有空？"
+        },
+        {
+          "en": "How do I read the electricity meter?",
+          "zh": "我该怎么读电表？"
+        },
+        {
+          "en": "Is the tap water safe to drink?",
+          "zh": "自来水可以直接饮用吗？"
+        },
+        {
+          "en": "We haven't received the gas bill this month.",
+          "zh": "这个月我们还没收到燃气账单。"
+        },
+        {
+          "en": "I'd like to report a power outage in our building.",
+          "zh": "我想报修，我们这栋楼停电了。"
+        },
+        {
+          "en": "How can I change the Wi-Fi password?",
+          "zh": "我怎么修改 Wi-Fi 密码？"
+        },
+        {
+          "en": "The air conditioner is making a strange noise.",
+          "zh": "空调发出奇怪的声音。"
+        },
+        {
+          "en": "Is there a maintenance fee included in the rent?",
+          "zh": "房租里包含维修费吗？"
+        },
+        {
+          "en": "Could you send someone to fix the broken window?",
+          "zh": "可以派人来修一下坏掉的窗户吗？"
+        },
+        {
+          "en": "Who is responsible for repairing household appliances?",
+          "zh": "家电维修由谁负责？"
+        },
+        {
+          "en": "The hot water runs out very quickly.",
+          "zh": "热水很快就用完了。"
+        },
+        {
+          "en": "I smell gas in the kitchen.",
+          "zh": "我在厨房闻到煤气味。"
+        },
+        {
+          "en": "Do I need to be at home during the inspection?",
+          "zh": "检查的时候需要我在家吗？"
+        },
+        {
+          "en": "Is there a service hotline for emergencies?",
+          "zh": "有紧急报修热线吗？"
+        },
+        {
+          "en": "How often are the smoke detectors tested?",
+          "zh": "烟雾报警器多久测试一次？"
+        },
+        {
+          "en": "The toilet won't flush properly.",
+          "zh": "厕所冲水不太正常。"
+        },
+        {
+          "en": "Where can I pay the utility bills in person?",
+          "zh": "我可以去哪儿线下缴纳水电费？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "education_classroom",
+      "name": "教育·课堂与学习",
+      "examples": [
+        {
+          "en": "Could you speak a bit more slowly, please?",
+          "zh": "可以说慢一点吗？"
+        },
+        {
+          "en": "I'm afraid I didn't catch the last part.",
+          "zh": "不好意思，最后一部分我没听清。"
+        },
+        {
+          "en": "Will this be on the exam?",
+          "zh": "这些内容会出现在考试里吗？"
+        },
+        {
+          "en": "Could you give us an example of this rule?",
+          "zh": "可以给我们举一个这个规则的例子吗？"
+        },
+        {
+          "en": "May I hand in the assignment next Monday?",
+          "zh": "我可以下周一交作业吗？"
+        },
+        {
+          "en": "Is attendance compulsory for this course?",
+          "zh": "这门课必须签到吗？"
+        },
+        {
+          "en": "I'd like to ask a question about today's lecture.",
+          "zh": "我想问一个关于今天课程的问题。"
+        },
+        {
+          "en": "What chapters should we review for the quiz?",
+          "zh": "小测验要复习哪些章节？"
+        },
+        {
+          "en": "Could you recommend any additional reading?",
+          "zh": "可以推荐一些额外阅读材料吗？"
+        },
+        {
+          "en": "Do we need to work in pairs or in groups?",
+          "zh": "我们需要两人一组还是小组合作？"
+        },
+        {
+          "en": "Is it okay if I record this lecture?",
+          "zh": "我可以录一下这节课吗？"
+        },
+        {
+          "en": "I missed last class, is there any make-up work?",
+          "zh": "我上节课没来，有需要补交的作业吗？"
+        },
+        {
+          "en": "The deadline has been extended by one week.",
+          "zh": "截止日期延长了一周。"
+        },
+        {
+          "en": "Please turn off your phones during the exam.",
+          "zh": "考试期间请关闭手机。"
+        },
+        {
+          "en": "We will have a group presentation next Friday.",
+          "zh": "我们下周五要进行小组展示。"
+        },
+        {
+          "en": "Could you email us the slides after class?",
+          "zh": "课后可以把课件发到我们的邮箱吗？"
+        },
+        {
+          "en": "Participation counts towards your final grade.",
+          "zh": "课堂参与会计入期末成绩。"
+        },
+        {
+          "en": "Is there a makeup exam for those who are sick?",
+          "zh": "如果生病了还有补考吗？"
+        },
+        {
+          "en": "Can we choose our own partners for this project?",
+          "zh": "这个项目可以自己选搭档吗？"
+        },
+        {
+          "en": "Please hand in your homework at the front desk.",
+          "zh": "请把作业交到讲台前面。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "office_it_support",
+      "name": "办公·IT 支持与设备",
+      "examples": [
+        {
+          "en": "My laptop keeps freezing, could someone take a look?",
+          "zh": "我的电脑总是卡死，可以有人来看一下吗？"
+        },
+        {
+          "en": "I can't connect to the company VPN.",
+          "zh": "我连不上公司的 VPN。"
+        },
+        {
+          "en": "The projector is not detecting my laptop.",
+          "zh": "投影仪识别不到我的电脑。"
+        },
+        {
+          "en": "Do I need admin rights to install this software?",
+          "zh": "安装这个软件需要管理员权限吗？"
+        },
+        {
+          "en": "The printer is out of paper again.",
+          "zh": "打印机又没纸了。"
+        },
+        {
+          "en": "Where can I find the Wi-Fi password?",
+          "zh": "Wi-Fi 密码在哪里可以查到？"
+        },
+        {
+          "en": "My email account has been locked.",
+          "zh": "我的邮箱账号被锁住了。"
+        },
+        {
+          "en": "Could you help me set up a new monitor?",
+          "zh": "可以帮我安装一台新的显示器吗？"
+        },
+        {
+          "en": "The video call keeps dropping.",
+          "zh": "视频会议总是掉线。"
+        },
+        {
+          "en": "I accidentally deleted an important file.",
+          "zh": "我不小心删掉了一个重要文件。"
+        },
+        {
+          "en": "Is there a way to recover it from the backup?",
+          "zh": "可以从备份里恢复吗？"
+        },
+        {
+          "en": "My keyboard isn't responding properly.",
+          "zh": "我的键盘反应不太正常。"
+        },
+        {
+          "en": "The system says I'm running out of storage.",
+          "zh": "系统提示我的存储空间快满了。"
+        },
+        {
+          "en": "Could you reset my network settings?",
+          "zh": "可以帮我重置一下网络设置吗？"
+        },
+        {
+          "en": "I forgot my login password.",
+          "zh": "我忘记登录密码了。"
+        },
+        {
+          "en": "Is this software licensed for commercial use?",
+          "zh": "这款软件的授权可以用于商业吗？"
+        },
+        {
+          "en": "Do we have a shared drive for project files?",
+          "zh": "我们有项目文件的共享盘吗？"
+        },
+        {
+          "en": "Could you help me connect this to the office network?",
+          "zh": "可以帮我把这个设备连到办公室网络吗？"
+        },
+        {
+          "en": "The meeting room camera isn't working.",
+          "zh": "会议室的摄像头坏了。"
+        },
+        {
+          "en": "Where should I report a security incident?",
+          "zh": "如果发现安全问题，我应该向哪里上报？"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_appointments",
+      "name": "生活·预约与排队",
+      "examples": [
+        {
+          "en": "I'd like to make an appointment for a haircut.",
+          "zh": "我想预约剪头发。"
+        },
+        {
+          "en": "Is there any slot available this afternoon?",
+          "zh": "今天下午还有空位吗？"
+        },
+        {
+          "en": "How long is the waiting time at the moment?",
+          "zh": "现在大概要等多久？"
+        },
+        {
+          "en": "Can I reschedule my appointment for next week?",
+          "zh": "我可以把预约改到下周吗？"
+        },
+        {
+          "en": "Do I need to take a number and wait?",
+          "zh": "我需要取号排队吗？"
+        },
+        {
+          "en": "We'll send you a text message to confirm.",
+          "zh": "我们会给你发短信确认。"
+        },
+        {
+          "en": "I'm running a bit late for my appointment.",
+          "zh": "我去预约的路上会晚到一点。"
+        },
+        {
+          "en": "Is it okay if I bring a friend with me?",
+          "zh": "我带朋友一起来可以吗？"
+        },
+        {
+          "en": "Your turn is coming up soon.",
+          "zh": "马上就轮到你了。"
+        },
+        {
+          "en": "Please arrive ten minutes before your appointment time.",
+          "zh": "请在预约时间前十分钟到达。"
+        },
+        {
+          "en": "Do I need to pay a deposit to secure the booking?",
+          "zh": "要交定金才能确认预约吗？"
+        },
+        {
+          "en": "I'm here for my 3 p.m. appointment.",
+          "zh": "我来参加下午三点的预约。"
+        },
+        {
+          "en": "Sorry, all the morning slots are fully booked.",
+          "zh": "不好意思，早上的时间已经约满了。"
+        },
+        {
+          "en": "Can I join the waiting list in case someone cancels?",
+          "zh": "如果有人取消，我可以排在候补名单吗？"
+        },
+        {
+          "en": "You can check in using this QR code.",
+          "zh": "你可以用这个二维码签到。"
+        },
+        {
+          "en": "Please take a seat and wait for your number to be called.",
+          "zh": "请先坐一下，等叫到你的号。"
+        },
+        {
+          "en": "How do I cancel the appointment if I can't come?",
+          "zh": "如果我来不了，怎么取消预约？"
+        },
+        {
+          "en": "Do you accept walk-ins, or is it by appointment only?",
+          "zh": "可以直接上门吗，还是必须提前预约？"
+        },
+        {
+          "en": "The doctor is running a bit behind schedule.",
+          "zh": "医生现在有点儿晚点。"
+        },
+        {
+          "en": "Thank you for waiting, please come this way.",
+          "zh": "感谢等待，请这边走。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_events",
+      "name": "生活·节日与聚会安排",
+      "examples": [
+        {
+          "en": "Are you doing anything special for the holiday?",
+          "zh": "这个节日你有什么特别安排吗？"
+        },
+        {
+          "en": "We're planning a small get-together this weekend.",
+          "zh": "我们打算这个周末小聚一下。"
+        },
+        {
+          "en": "Could you bring a dessert to the potluck?",
+          "zh": "你可以在聚餐时带一份甜点吗？"
+        },
+        {
+          "en": "Do I need to dress formally for the party?",
+          "zh": "参加派对需要穿正装吗？"
+        },
+        {
+          "en": "Let's decorate the room with some lights and balloons.",
+          "zh": "我们用灯串和气球布置一下房间吧。"
+        },
+        {
+          "en": "What time should we start the celebration?",
+          "zh": "我们几点开始庆祝比较合适？"
+        },
+        {
+          "en": "Don't forget to make a wish before you blow out the candles.",
+          "zh": "吹蜡烛之前别忘了许个愿。"
+        },
+        {
+          "en": "Thanks for coming, it means a lot to me.",
+          "zh": "谢谢你能来，对我来说很重要。"
+        },
+        {
+          "en": "Could you send me the photos later?",
+          "zh": "能把照片之后发给我吗？"
+        },
+        {
+          "en": "We usually exchange gifts on Christmas Eve.",
+          "zh": "我们一般在平安夜互相交换礼物。"
+        },
+        {
+          "en": "Let's make a toast to the newlyweds.",
+          "zh": "让我们为这对新人干杯。"
+        },
+        {
+          "en": "The event has been postponed due to bad weather.",
+          "zh": "由于天气不好，活动被推迟了。"
+        },
+        {
+          "en": "Do you celebrate the Lunar New Year?",
+          "zh": "你们过农历新年吗？"
+        },
+        {
+          "en": "We always count down together on New Year's Eve.",
+          "zh": "我们总是在跨年夜一起倒数。"
+        },
+        {
+          "en": "Please RSVP by Friday if you can make it.",
+          "zh": "如果能来，请在周五前回复是否参加。"
+        },
+        {
+          "en": "There will be music, snacks, and a small gift for everyone.",
+          "zh": "现场会有音乐、小零食和一份小礼物。"
+        },
+        {
+          "en": "It's a surprise party, so please keep it secret.",
+          "zh": "这是个惊喜派对，所以请先保密。"
+        },
+        {
+          "en": "Let me know if you have any food allergies.",
+          "zh": "如果你有食物过敏请提前告诉我。"
+        },
+        {
+          "en": "We usually light fireworks at midnight.",
+          "zh": "我们通常会在午夜放烟花。"
+        },
+        {
+          "en": "I'm sorry I can't make it, but thank you for inviting me.",
+          "zh": "不好意思我来不了，但谢谢你的邀请。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "life_daily_routine",
+      "name": "生活·日常起居与家务",
+      "examples": [
+        {
+          "en": "I usually get up around seven on weekdays.",
+          "zh": "工作日我一般七点左右起床。"
+        },
+        {
+          "en": "I make myself a cup of coffee before starting work.",
+          "zh": "开始工作前我会给自己冲一杯咖啡。"
+        },
+        {
+          "en": "I try to go for a walk after dinner.",
+          "zh": "我尽量在晚饭后出去散步。"
+        },
+        {
+          "en": "I do the laundry on Saturday mornings.",
+          "zh": "我一般在周六早上洗衣服。"
+        },
+        {
+          "en": "Could you take out the trash on your way out?",
+          "zh": "你出门的时候可以顺便把垃圾带出去吗？"
+        },
+        {
+          "en": "I'll do the dishes if you cook.",
+          "zh": "如果你做饭，我来洗碗。"
+        },
+        {
+          "en": "Don't forget to water the plants.",
+          "zh": "别忘了给植物浇水。"
+        },
+        {
+          "en": "I need to tidy up my room this weekend.",
+          "zh": "这个周末我得收拾一下房间。"
+        },
+        {
+          "en": "I usually do my grocery shopping on Sundays.",
+          "zh": "我通常周日去买菜。"
+        },
+        {
+          "en": "I like to read a bit before going to bed.",
+          "zh": "睡前我喜欢读一会儿书。"
+        },
+        {
+          "en": "I try not to look at my phone after midnight.",
+          "zh": "我尽量在午夜之后不再看手机。"
+        },
+        {
+          "en": "Could you hang up the clothes to dry?",
+          "zh": "可以帮我把衣服晾起来吗？"
+        },
+        {
+          "en": "I vacuum the floor once or twice a week.",
+          "zh": "我每周会用吸尘器打扫一两次地板。"
+        },
+        {
+          "en": "We take turns cooking during the week.",
+          "zh": "我们工作日轮流做饭。"
+        },
+        {
+          "en": "I need to set an alarm for tomorrow morning.",
+          "zh": "我得设一个明早的闹钟。"
+        },
+        {
+          "en": "I like to prepare my clothes the night before.",
+          "zh": "我喜欢前一天晚上把第二天要穿的衣服准备好。"
+        },
+        {
+          "en": "I try to go to bed before eleven.",
+          "zh": "我尽量在十一点之前睡觉。"
+        },
+        {
+          "en": "I usually clean the kitchen after using it.",
+          "zh": "我一般用完厨房就会顺手收拾一下。"
+        },
+        {
+          "en": "I keep a to-do list for my daily tasks.",
+          "zh": "我会写一张待办清单来安排每天的事情。"
+        },
+        {
+          "en": "Doing a little bit of housework every day keeps things under control.",
+          "zh": "每天做一点家务，家里就不会乱得太厉害。"
+        }
+      ],
+      "levels": [
+        "B2",
+        "C1",
+        "C2"
+      ]
+    }
+  ]
+}
